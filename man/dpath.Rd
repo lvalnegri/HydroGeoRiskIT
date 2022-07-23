@@ -11,6 +11,6 @@ An object of class \code{character} of length 1.
 dpath
 }
 \description{
-Folder for the `sf` files
+Folder for the \code{sf} files
 }
 \keyword{datasets}
