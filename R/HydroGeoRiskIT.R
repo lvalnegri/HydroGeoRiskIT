@@ -1,7 +1,7 @@
-#' it_hydrogeo_risk
+#' HydroGeoRiskIT
 #' 
 #' Data and Digital Boundaries for the Analysis of Hazards and Risks from Floods and Landslides In Italy.
 #'  
 #' @docType package
-#' @name it_hydrogeo_risk
+#' @name HydroGeoRiskIT
 NULL
