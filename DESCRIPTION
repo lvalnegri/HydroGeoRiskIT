@@ -1,0 +1,27 @@
+Package: it_hydrogeo_risk
+Type: Package
+Date: 2022-07-31
+Title: Hazards and Risks from Floods and Landslides In Italy
+Version: 0.1.0
+Authors@R: person("Luca", "Valnegri", email = "l.valnegri@datamaps.co.uk", role = c("aut", "cre"))
+Description: Data and Digital Boundaries for the Analysis of Hazards and Risks from Floods and Landslides In Italy.
+License: file LICENSE
+URL: https://github.com/lvalnegri/it_hydrogeo_risk
+BugReports: https://github.com/lvalnegri/it_hydrogeo_risk/issues
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports:
+  data.table,
+  leaflet,
+  rmapshaper,
+  qs,
+  sf
+Suggests:
+  dplyr,
+  fst,
+  shiny,
+  shinyjs
+Remotes:
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0

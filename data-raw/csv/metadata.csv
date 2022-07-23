@@ -1,0 +1,117 @@
+﻿sigla,sigla_ori,descrizione,etichetta,fonte,anno,rischio,livello,clivello,misura,metrica
+CMN,pro_com,Codice ProCom del Comune,,ISTAT,2021,,,,,
+area,ar_kmq,Superficie (kmq),,,,,,,,
+pop,pop_res011,Popolazione residente (n. ab.),,ISTAT,2020,,,,,
+fam,fam_tot,Famiglie (n.),,ISTAT,2020,,,,,
+edf,ed_tot,Edifici (n.),,ISTAT,2011,,,,,
+ulc,im_tot,Unità Locali (n.),,ISTAT,2011,,,,,
+bct,n_vir,Beni Culturali (n.),,ISCR,2021,,,,,
+area_id_H,ar_id_p3,Superficie delle aree a pericolosità idraulica elevata (kmq),,ISPRA,2020,Idraulico,Elevato,H,Superficie,conteggio
+area_id_M,ar_id_p2,Superficie delle aree a pericolosità idraulica media (kmq),,ISPRA,2020,Idraulico,Medio,M,Superficie,conteggio
+area_id_L,ar_id_p1,Superficie delle aree a pericolosità idraulica bassa (kmq),,ISPRA,2020,Idraulico,Basso,L,Superficie,conteggio
+area_id_H_p,aridp3_p,Superficie delle aree a pericolosità idraulica elevata (%),,ISPRA,2020,Idraulico,Elevato,H,Superficie,percentuale
+area_id_M_p,aridp2_p,Superficie delle aree a pericolosità idraulica media (%),,ISPRA,2020,Idraulico,Medio,M,Superficie,percentuale
+area_id_L_p,aridp1_p,Superficie delle aree a pericolosità idraulica bassa (%),,ISPRA,2020,Idraulico,Basso,L,Superficie,percentuale
+pop_id_H,pop_idr_p3,Popolazione a rischio in aree a pericolosità idraulica elevata (n. ab.),,ISPRA,2020,Idraulico,Elevato,H,Popolazione,conteggio
+pop_id_M,pop_idr_p2,Popolazione a rischio in aree a pericolosità idraulica media (n. ab.),,ISPRA,2020,Idraulico,Medio,M,Popolazione,conteggio
+pop_id_L,pop_idr_p1,Popolazione a rischio in aree a pericolosità idraulica bassa (n. ab.),,ISPRA,2020,Idraulico,Basso,L,Popolazione,conteggio
+pop_id_H_p,popidp3_p,Popolazione a rischio in aree a pericolosità idraulica elevata (%),,ISPRA,2020,Idraulico,Elevato,H,Popolazione,percentuale
+pop_id_M_p,popidp2_p,Popolazione a rischio in aree a pericolosità idraulica media (%),,ISPRA,2020,Idraulico,Medio,M,Popolazione,percentuale
+pop_id_L_p,popidp1_p,Popolazione a rischio in aree a pericolosità idraulica bassa (%),,ISPRA,2020,Idraulico,Basso,L,Popolazione,percentuale
+fam_id_H,fam_idr_p3,Famiglie a rischio in aree a pericolosità idraulica elevata (n.),,ISPRA,2020,Idraulico,Elevato,H,Famiglie,conteggio
+fam_id_M,fam_idr_p2,Famiglie a rischio in aree a pericolosità idraulica media (n.),,ISPRA,2020,Idraulico,Medio,M,Famiglie,conteggio
+fam_id_L,fam_idr_p1,Famiglie a rischio in aree a pericolosità idraulica bassa (n.),,ISPRA,2020,Idraulico,Basso,L,Famiglie,conteggio
+fam_id_H_p,famidp3_p,Famiglie a rischio in aree a pericolosità idraulica elevata (%),,ISPRA,2020,Idraulico,Elevato,H,Famiglie,percentuale
+fam_id_M_p,famidp2_p,Famiglie a rischio in aree a pericolosità idraulica media (%),,ISPRA,2020,Idraulico,Medio,M,Famiglie,percentuale
+fam_id_L_p,famidp1_p,Famiglie a rischio in aree a pericolosità idraulica bassa (%),,ISPRA,2020,Idraulico,Basso,L,Famiglie,percentuale
+edf_id_H,ed_idr_p3,Edifici a rischio in aree a pericolosità idraulica elevata (n.),,ISPRA,2020,Idraulico,Elevato,H,Edifici,conteggio
+edf_id_M,ed_idr_p2,Edifici a rischio in aree a pericolosità idraulica media (n.),,ISPRA,2020,Idraulico,Medio,M,Edifici,conteggio
+edf_id_L,ed_idr_p1,Edifici a rischio in aree a pericolosità idraulica bassa (n.),,ISPRA,2020,Idraulico,Basso,L,Edifici,conteggio
+edf_id_H_p,edidp3_p,Edifici a rischio in aree a pericolosità idraulica elevata (%),,ISPRA,2020,Idraulico,Elevato,H,Edifici,percentuale
+edf_id_M_p,edidp2_p,Edifici a rischio in aree a pericolosità idraulica media (%),,ISPRA,2020,Idraulico,Medio,M,Edifici,percentuale
+edf_id_L_p,edidp1_p,Edifici a rischio in aree a pericolosità idraulica bassa (%),,ISPRA,2020,Idraulico,Basso,L,Edifici,percentuale
+ulc_id_H,im_idr_p3,Unità locali d'imprese a rischio in aree a pericolosità idraulica elevata (n.),,ISPRA,2020,Idraulico,Elevato,H,Unità Locali,conteggio
+ulc_id_M,im_idr_p2,Unità locali d'imprese a rischio in aree a pericolosità idraulica media (n.),,ISPRA,2020,Idraulico,Medio,M,Unità Locali,conteggio
+ulc_id_L,im_idr_p1,Unità locali d'imprese a rischio in aree a pericolosità idraulica bassa (n.),,ISPRA,2020,Idraulico,Basso,L,Unità Locali,conteggio
+ulc_id_H_p,imidp3_p,Unità locali d'imprese a rischio in aree a pericolosità idraulica elevata (%),,ISPRA,2020,Idraulico,Elevato,H,Unità Locali,percentuale
+ulc_id_M_p,imidp2_p,Unità locali d'imprese a rischio in aree a pericolosità idraulica media (%),,ISPRA,2020,Idraulico,Medio,M,Unità Locali,percentuale
+ulc_id_L_p,imidp1_p,Unità locali d'imprese a rischio in aree a pericolosità idraulica bassa (%),,ISPRA,2020,Idraulico,Basso,L,Unità Locali,percentuale
+bct_id_H,bbcc_id_p3,Beni culturali a rischio in aree a pericolosità idraulica elevata (n.),,ISPRA,2020,Idraulico,Elevato,H,Beni Culturali,conteggio
+bct_id_M,bbcc_id_p2,Beni culturali a rischio in aree a pericolosità idraulica media (n.),,ISPRA,2020,Idraulico,Medio,M,Beni Culturali,conteggio
+bct_id_L,bbcc_id_p1,Beni culturali a rischio in aree a pericolosità idraulica bassa (n.),,ISPRA,2020,Idraulico,Basso,L,Beni Culturali,conteggio
+bct_id_H_p,bbccidp3_p,Beni culturali a rischio in aree a pericolosità idraulica elevata (%),,ISPRA,2020,Idraulico,Elevato,H,Beni Culturali,percentuale
+bct_id_M_p,bbccidp2_p,Beni culturali a rischio in aree a pericolosità idraulica media (%),,ISPRA,2020,Idraulico,Medio,M,Beni Culturali,percentuale
+bct_id_L_p,bbccidp1_p,Beni culturali a rischio in aree a pericolosità idraulica bassa (%),,ISPRA,2020,Idraulico,Basso,L,Beni Culturali,percentuale
+area_fr_P4,ar_fr_p4,Superficie delle aree a pericolosità da frana molto elevata P4 (kmq),,ISPRA,2020,Frana,Molto Elevato,P4,Superficie,conteggio
+area_fr_P3,ar_fr_p3,Superficie delle aree a pericolosità da frana elevata P3 (kmq),,ISPRA,2020,Frana,Elevato,P3,Superficie,conteggio
+area_fr_P2,ar_fr_p2,Superficie delle aree a pericolosità da frana media P2 (kmq),,ISPRA,2020,Frana,Medio,P2,Superficie,conteggio
+area_fr_P1,ar_fr_p1,Superficie delle aree a pericolosità da frana moderata P1 (kmq),,ISPRA,2020,Frana,Basso,P1,Superficie,conteggio
+area_fr_AA,ar_fr_aa,Superficie delle aree di attenzione AA (kmq),,ISPRA,2020,Frana,Attenzione,AA,Superficie,conteggio
+area_fr_P3P4,ar_fr_p3p4,Superficie delle aree a pericolosità da frana elevata e molto elevata (P4 + P3) (kmq),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Superficie,conteggio
+area_fr_P4_p,ar_frp4_p,Superficie delle aree a pericolosità da frana molto elevata P4 (%),,ISPRA,2020,Frana,Molto Elevato,P4,Superficie,percentuale
+area_fr_P3_p,ar_frp3_p,Superficie delle aree a pericolosità da frana elevata P3 (%),,ISPRA,2020,Frana,Elevato,P3,Superficie,percentuale
+area_fr_P2_p,ar_frp2_p,Superficie delle aree a pericolosità da frana media P2 (%),,ISPRA,2020,Frana,Medio,P2,Superficie,percentuale
+area_fr_P1_p,ar_frp1_p,Superficie delle aree a pericolosità da frana moderata P1 (%),,ISPRA,2020,Frana,Basso,P1,Superficie,percentuale
+area_fr_AA_p,ar_fraa_p,Superficie delle aree di attenzione AA (%),,ISPRA,2020,Frana,Attenzione,AA,Superficie,percentuale
+area_fr_P3P4_p,ar_frp3p4_p,Superficie delle aree a pericolosità da frana elevata e molto elevata (P4 + P3) (%),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Superficie,percentuale
+pop_fr_P4,pop_fr_p4,Popolazione a rischio in aree a pericolosità da frana molto elevata P4 (n. ab.),,ISPRA,2020,Frana,Molto Elevato,P4,Popolazione,conteggio
+pop_fr_P3,pop_fr_p3,Popolazione a rischio in aree a pericolosità da frana elevata P3 (n. ab.),,ISPRA,2020,Frana,Elevato,P3,Popolazione,conteggio
+pop_fr_P2,pop_fr_p2,Popolazione a rischio in aree a pericolosità da frana media P2 (n. ab.),,ISPRA,2020,Frana,Medio,P2,Popolazione,conteggio
+pop_fr_P1,pop_fr_p1,Popolazione a rischio in aree a pericolosità da frana moderata P1 (n. ab.),,ISPRA,2020,Frana,Basso,P1,Popolazione,conteggio
+pop_fr_AA,pop_fr_aa,Popolazione a rischio in aree di attenzione AA (n. ab.),,ISPRA,2020,Frana,Attenzione,AA,Popolazione,conteggio
+pop_fr_P3P4,popfr_p3p4,Popolazione a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (n. ab.),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Popolazione,conteggio
+pop_fr_P4_p,popfrp4_p,Popolazione a rischio in aree a pericolosità da frana molto elevata P4 (%),,ISPRA,2020,Frana,Molto Elevato,P4,Popolazione,percentuale
+pop_fr_P3_p,popfrp3_p,Popolazione a rischio in aree a pericolosità da frana elevata P3 (%),,ISPRA,2020,Frana,Elevato,P3,Popolazione,percentuale
+pop_fr_P2_p,popfrp2_p,Popolazione a rischio in aree a pericolosità da frana media P2 (%),,ISPRA,2020,Frana,Medio,P2,Popolazione,percentuale
+pop_fr_P1_p,popfrp1_p,Popolazione a rischio in aree a pericolosità da frana moderata P1 (%),,ISPRA,2020,Frana,Basso,P1,Popolazione,percentuale
+pop_fr_AA_p,popfraa_p,Popolazione a rischio in aree di attenzione AA (%),,ISPRA,2020,Frana,Attenzione,AA,Popolazione,percentuale
+pop_fr_P3P4_p,popfrp3p4_p,Popolazione a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (%),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Popolazione,percentuale
+fam_fr_P4,fam_fr_p4,Famiglie a rischio in aree a pericolosità da frana molto elevata P4 (n.),,ISPRA,2020,Frana,Molto Elevato,P4,Famiglie,conteggio
+fam_fr_P3,fam_fr_p3,Famiglie a rischio in aree a pericolosità da frana elevata P3 (n.),,ISPRA,2020,Frana,Elevato,P3,Famiglie,conteggio
+fam_fr_P2,fam_fr_p2,Famiglie a rischio in aree a pericolosità da frana media P2 (n.),,ISPRA,2020,Frana,Medio,P2,Famiglie,conteggio
+fam_fr_P1,fam_fr_p1,Famiglie a rischio in aree a pericolosità da frana moderata P1 (n.),,ISPRA,2020,Frana,Basso,P1,Famiglie,conteggio
+fam_fr_AA,fam_fr_aa,Famiglie a rischio in aree di attenzione AA (n.),,ISPRA,2020,Frana,Attenzione,AA,Famiglie,conteggio
+fam_fr_P3P4,famfr_p3p4,Famiglie a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (n.),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Famiglie,conteggio
+fam_fr_P4_p,famfrp4_p,Famiglie a rischio in aree a pericolosità da frana molto elevata P4 (%),,ISPRA,2020,Frana,Molto Elevato,P4,Famiglie,percentuale
+fam_fr_P3_p,famfrp3_p,Famiglie a rischio in aree a pericolosità da frana elevata P3 (%),,ISPRA,2020,Frana,Elevato,P3,Famiglie,percentuale
+fam_fr_P2_p,famfrp2_p,Famiglie a rischio in aree a pericolosità da frana media P2 (%),,ISPRA,2020,Frana,Medio,P2,Famiglie,percentuale
+fam_fr_P1_p,famfrp1_p,Famiglie a rischio in aree a pericolosità da frana moderata P1 (%),,ISPRA,2020,Frana,Basso,P1,Famiglie,percentuale
+fam_fr_AA_p,famfraa_p,Famiglie a rischio in aree di attenzione AA (%),,ISPRA,2020,Frana,Attenzione,AA,Famiglie,percentuale
+fam_fr_P3P4_p,famfrp3p4_p,Famiglie a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (%),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Famiglie,percentuale
+edf_fr_P4,ed_fr_p4,Edifici a rischio in aree a pericolosità da frana molto elevata P4 (n.),,ISPRA,2020,Frana,Molto Elevato,P4,Edifici,conteggio
+edf_fr_P3,ed_fr_p3,Edifici a rischio in aree a pericolosità da frana elevata P3 (n.),,ISPRA,2020,Frana,Elevato,P3,Edifici,conteggio
+edf_fr_P2,ed_fr_p2,Edifici a rischio in aree a pericolosità da frana media P2 (n.),,ISPRA,2020,Frana,Medio,P2,Edifici,conteggio
+edf_fr_P1,ed_fr_p1,Edifici a rischio in aree a pericolosità da frana moderata P1 (n.),,ISPRA,2020,Frana,Basso,P1,Edifici,conteggio
+edf_fr_AA,ed_fr_aa,Edifici a rischio in aree di attenzione AA (n.),,ISPRA,2020,Frana,Attenzione,AA,Edifici,conteggio
+edf_fr_P3P4,ed_fr_p3p4,Edifici a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (n.),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Edifici,conteggio
+edf_fr_P4_p,edfrp4_p,Edifici a rischio in aree a pericolosità da frana molto elevata P4 (%),,ISPRA,2020,Frana,Molto Elevato,P4,Edifici,percentuale
+edf_fr_P3_p,edfrp3_p,Edifici a rischio in aree a pericolosità da frana elevata P3 (%),,ISPRA,2020,Frana,Elevato,P3,Edifici,percentuale
+edf_fr_P2_p,edfrp2_p,Edifici a rischio in aree a pericolosità da frana media P2 (%),,ISPRA,2020,Frana,Medio,P2,Edifici,percentuale
+edf_fr_P1_p,edfrp1_p,Edifici a rischio in aree a pericolosità da frana moderata P1 (%),,ISPRA,2020,Frana,Basso,P1,Edifici,percentuale
+edf_fr_AA_p,edfraa_p,Edifici a rischio in aree di attenzione AA (%),,ISPRA,2020,Frana,Attenzione,AA,Edifici,percentuale
+edf_fr_P3P4_p,edfrp3p4_p,Edifici a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (%),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Edifici,percentuale
+ulc_fr_P4,im_fr_p4,Unità locali d'imprese a rischio in aree a pericolosità da frana molto elevata P4 (n.),,ISPRA,2020,Frana,Molto Elevato,P4,Unità Locali,conteggio
+ulc_fr_P3,im_fr_p3,Unità locali d'imprese a rischio in aree a pericolosità da frana elevata P3 (n.),,ISPRA,2020,Frana,Elevato,P3,Unità Locali,conteggio
+ulc_fr_P2,im_fr_p2,Unità locali d'imprese a rischio in aree a pericolosità da frana media P2 (n.),,ISPRA,2020,Frana,Medio,P2,Unità Locali,conteggio
+ulc_fr_P1,im_fr_p1,Unità locali d'imprese a rischio in aree a pericolosità da frana moderata P1 (n.),,ISPRA,2020,Frana,Basso,P1,Unità Locali,conteggio
+ulc_fr_AA,im_fr_aa,Unità locali d'imprese a rischio in aree di attenzione AA (n.),,ISPRA,2020,Frana,Attenzione,AA,Unità Locali,conteggio
+ulc_fr_P3P4,imfr_p3p4,Unità locali d'imprese a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (n.),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Unità Locali,conteggio
+ulc_fr_P4_p,imfrp4_p,Unità locali d'imprese a rischio in aree a pericolosità da frana molto elevata P4 (%),,ISPRA,2020,Frana,Molto Elevato,P4,Unità Locali,percentuale
+ulc_fr_P3_p,imfrp3_p,Unità locali d'imprese a rischio in aree a pericolosità da frana elevata P3 (%),,ISPRA,2020,Frana,Elevato,P3,Unità Locali,percentuale
+ulc_fr_P2_p,imfrp2_p,Unità locali d'imprese a rischio in aree a pericolosità da frana media P2 (%),,ISPRA,2020,Frana,Medio,P2,Unità Locali,percentuale
+ulc_fr_P1_p,imfrp1_p,Unità locali d'imprese a rischio in aree a pericolosità da frana moderata P1 (%),,ISPRA,2020,Frana,Basso,P1,Unità Locali,percentuale
+ulc_fr_AA_p,imfraa_p,Unità locali d'imprese a rischio in aree di attenzione AA (%),,ISPRA,2020,Frana,Attenzione,AA,Unità Locali,percentuale
+ulc_fr_P3P4_p,imfrp3p4_p,Unità locali d'imprese a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (%),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Unità Locali,percentuale
+bct_fr_P4,bbcc_fr_p4,Beni culturali a rischio in aree a pericolosità da frana molto elevata P4 (n.),,ISPRA,2020,Frana,Molto Elevato,P4,Beni Culturali,conteggio
+bct_fr_P3,bbcc_fr_p3,Beni culturali a rischio in aree a pericolosità da frana elevata P3 (n.),,ISPRA,2020,Frana,Elevato,P3,Beni Culturali,conteggio
+bct_fr_P2,bbcc_fr_p2,Beni culturali a rischio in aree a pericolosità da frana media P2 (n.),,ISPRA,2020,Frana,Medio,P2,Beni Culturali,conteggio
+bct_fr_P1,bbcc_fr_p1,Beni culturali a rischio in aree a pericolosità da frana moderata P1 (n.),,ISPRA,2020,Frana,Basso,P1,Beni Culturali,conteggio
+bct_fr_AA,bbcc_fr_aa,Beni culturali a rischio in aree di attenzione AA (n.),,ISPRA,2020,Frana,Attenzione,AA,Beni Culturali,conteggio
+bct_fr_P3P4,bbccfrp3p4,Beni culturali a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (n.),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Beni Culturali,conteggio
+bct_fr_P4_p,bbccfrp4_p,Beni culturali a rischio in aree a pericolosità da frana molto elevata P4 (%),,ISPRA,2020,Frana,Molto Elevato,P4,Beni Culturali,percentuale
+bct_fr_P3_p,bbccfrp3_p,Beni culturali a rischio in aree a pericolosità da frana elevata P3 (%),,ISPRA,2020,Frana,Elevato,P3,Beni Culturali,percentuale
+bct_fr_P2_p,bbccfrp2_p,Beni culturali a rischio in aree a pericolosità da frana media P2 (%),,ISPRA,2020,Frana,Medio,P2,Beni Culturali,percentuale
+bct_fr_P1_p,bbccfrp1_p,Beni culturali a rischio in aree a pericolosità da frana moderata P1 (%),,ISPRA,2020,Frana,Basso,P1,Beni Culturali,percentuale
+bct_fr_AA_p,bbccfraa_p,Beni culturali a rischio in aree di attenzione AA (%),,ISPRA,2020,Frana,Attenzione,AA,Beni Culturali,percentuale
+bct_fr_P3P4_p,bbccfrp3p4_p,Beni culturali a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (%),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Beni Culturali,percentuale
+,,,,,,,,,,
