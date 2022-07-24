@@ -37,7 +37,7 @@ x <- "
 "
 dd_create_dbtable('metadata', dbn, x)
 
-## TABLE <lookups> ----------------
+## TABLE <cmn_lid> ----------------
 x <- "
     `risk` CHAR(1) NOT NULL,
     `lid` CHAR(6) NOT NULL,
@@ -48,7 +48,20 @@ x <- "
     KEY `livello` (`level`),
     KEY `id` (`id`)
 "
-dd_create_dbtable('lookups', dbn, x)
+dd_create_dbtable('cmn_lid', dbn, x)
+
+## TABLE <geoCMN> ----------------
+x <- "
+    `CMN` MEDIUMINT(6) UNSIGNED NOT NULL,
+    `CMNd` CHAR(35) NOT NULL,
+    `PRV` CHAR(3) NOT NULL,
+    `PRVd` CHAR(30) NOT NULL,
+    `PRVs` CHAR(2) NOT NULL,
+    PRIMARY KEY (`CMN`),
+    KEY `PRV` (`PRV`),
+    KEY `PRVs` (`PRVs`)
+"
+dd_create_dbtable('geoCMN', dbn, x)
 
 ## FINE -------------------------------
 rm(list = ls())
