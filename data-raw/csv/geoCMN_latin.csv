@@ -1,5 +1,5 @@
 CMN,CMNd,PRV,PRVd,PRVs
-1001,Agli√®,001,Torino,TO
+1001,AgliË,001,Torino,TO
 1002,Airasca,001,Torino,TO
 1003,Ala di Stura,001,Torino,TO
 1004,Albiano d'Ivrea,001,Torino,TO
@@ -83,7 +83,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 1083,Ciconio,001,Torino,TO
 1084,Cintano,001,Torino,TO
 1085,Cinzano,001,Torino,TO
-1086,Ciri√®,001,Torino,TO
+1086,CiriË,001,Torino,TO
 1087,Claviere,001,Torino,TO
 1088,Coassolo Torinese,001,Torino,TO
 1089,Coazze,001,Torino,TO
@@ -95,7 +95,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 1095,Cossano Canavese,001,Torino,TO
 1096,Cuceglio,001,Torino,TO
 1097,Cumiana,001,Torino,TO
-1098,Cuorgn√®,001,Torino,TO
+1098,CuorgnË,001,Torino,TO
 1099,Druento,001,Torino,TO
 1100,Exilles,001,Torino,TO
 1101,Favria,001,Torino,TO
@@ -134,17 +134,17 @@ CMN,CMNd,PRV,PRVd,PRVs
 1134,Locana,001,Torino,TO
 1135,Lombardore,001,Torino,TO
 1136,Lombriasco,001,Torino,TO
-1137,Loranz√®,001,Torino,TO
+1137,LoranzË,001,Torino,TO
 1139,Luserna San Giovanni,001,Torino,TO
 1140,Lusernetta,001,Torino,TO
-1141,Lusigli√®,001,Torino,TO
+1141,LusigliË,001,Torino,TO
 1142,Macello,001,Torino,TO
 1143,Maglione,001,Torino,TO
 1144,Marentino,001,Torino,TO
 1145,Massello,001,Torino,TO
 1146,Mathi,001,Torino,TO
 1147,Mattie,001,Torino,TO
-1148,Mazz√®,001,Torino,TO
+1148,MazzË,001,Torino,TO
 1149,Meana di Susa,001,Torino,TO
 1150,Mercenasco,001,Torino,TO
 1152,Mezzenile,001,Torino,TO
@@ -220,7 +220,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 1223,Romano Canavese,001,Torino,TO
 1224,Ronco Canavese,001,Torino,TO
 1225,Rondissone,001,Torino,TO
-1226,Ror√†,001,Torino,TO
+1226,Ror‡,001,Torino,TO
 1227,Roure,001,Torino,TO
 1228,Rosta,001,Torino,TO
 1229,Rubiana,001,Torino,TO
@@ -288,8 +288,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 1292,Venaria Reale,001,Torino,TO
 1293,Verolengo,001,Torino,TO
 1294,Verrua Savoia,001,Torino,TO
-1295,Vestign√®,001,Torino,TO
-1296,Vialfr√®,001,Torino,TO
+1295,VestignË,001,Torino,TO
+1296,VialfrË,001,Torino,TO
 1298,Vidracco,001,Torino,TO
 1299,Vigone,001,Torino,TO
 1300,Villafranca Piemonte,001,Torino,TO
@@ -305,7 +305,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 1310,Virle Piemonte,001,Torino,TO
 1311,Vische,001,Torino,TO
 1312,Vistrorio,001,Torino,TO
-1313,Vi√π,001,Torino,TO
+1313,Vi˘,001,Torino,TO
 1314,Volpiano,001,Torino,TO
 1315,Volvera,001,Torino,TO
 1316,Mappano,001,Torino,TO
@@ -318,7 +318,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 2007,Asigliano Vercellese,002,Vercelli,VC
 2008,Balmuccia,002,Vercelli,VC
 2009,Balocco,002,Vercelli,VC
-2011,Bianz√®,002,Vercelli,VC
+2011,BianzË,002,Vercelli,VC
 2014,Boccioleto,002,Vercelli,VC
 2015,Borgo d'Ale,002,Vercelli,VC
 2016,Borgosesia,002,Vercelli,VC
@@ -377,7 +377,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 2127,Sali Vercellese,002,Vercelli,VC
 2128,Saluggia,002,Vercelli,VC
 2131,San Germano Vercellese,002,Vercelli,VC
-2133,Santhi√†,002,Vercelli,VC
+2133,Santhi‡,002,Vercelli,VC
 2134,Scopa,002,Vercelli,VC
 2135,Scopello,002,Vercelli,VC
 2137,Serravalle Sesia,002,Vercelli,VC
@@ -493,7 +493,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 4011,Barbaresco,004,Cuneo,CN
 4012,Barge,004,Cuneo,CN
 4013,Barolo,004,Cuneo,CN
-4014,Bastia Mondov√¨,004,Cuneo,CN
+4014,Bastia MondovÏ,004,Cuneo,CN
 4015,Battifollo,004,Cuneo,CN
 4016,Beinette,004,Cuneo,CN
 4017,Bellino,004,Cuneo,CN
@@ -520,8 +520,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 4039,Caprauna,004,Cuneo,CN
 4040,Caraglio,004,Cuneo,CN
 4041,Caramagna Piemonte,004,Cuneo,CN
-4042,Card√®,004,Cuneo,CN
-4043,Carr√π,004,Cuneo,CN
+4042,CardË,004,Cuneo,CN
+4043,Carr˘,004,Cuneo,CN
 4044,Cartignano,004,Cuneo,CN
 4045,Casalgrasso,004,Cuneo,CN
 4046,Castagnito,004,Cuneo,CN
@@ -546,7 +546,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 4066,Ceva,004,Cuneo,CN
 4067,Cherasco,004,Cuneo,CN
 4068,Chiusa di Pesio,004,Cuneo,CN
-4069,Cigli√®,004,Cuneo,CN
+4069,CigliË,004,Cuneo,CN
 4070,Cissone,004,Cuneo,CN
 4071,Clavesana,004,Cuneo,CN
 4072,Corneliano d'Alba,004,Cuneo,CN
@@ -607,11 +607,11 @@ CMN,CMNd,PRV,PRVd,PRVs
 4127,Monasterolo Casotto,004,Cuneo,CN
 4128,Monasterolo di Savigliano,004,Cuneo,CN
 4129,Monchiero,004,Cuneo,CN
-4130,Mondov√¨,004,Cuneo,CN
+4130,MondovÏ,004,Cuneo,CN
 4131,Monesiglio,004,Cuneo,CN
 4132,Monforte d'Alba,004,Cuneo,CN
-4133,Mont√†,004,Cuneo,CN
-4134,Montaldo di Mondov√¨,004,Cuneo,CN
+4133,Mont‡,004,Cuneo,CN
+4134,Montaldo di MondovÏ,004,Cuneo,CN
 4135,Montaldo Roero,004,Cuneo,CN
 4136,Montanera,004,Cuneo,CN
 4137,Montelupo Albese,004,Cuneo,CN
@@ -665,9 +665,9 @@ CMN,CMNd,PRV,PRVd,PRVs
 4185,Robilante,004,Cuneo,CN
 4186,Roburent,004,Cuneo,CN
 4187,Roccabruna,004,Cuneo,CN
-4188,Rocca Cigli√®,004,Cuneo,CN
+4188,Rocca CigliË,004,Cuneo,CN
 4189,Rocca de' Baldi,004,Cuneo,CN
-4190,Roccaforte Mondov√¨,004,Cuneo,CN
+4190,Roccaforte MondovÏ,004,Cuneo,CN
 4191,Roccasparvera,004,Cuneo,CN
 4192,Roccavione,004,Cuneo,CN
 4193,Rocchetta Belbo,004,Cuneo,CN
@@ -685,9 +685,9 @@ CMN,CMNd,PRV,PRVd,PRVs
 4205,Sampeyre,004,Cuneo,CN
 4206,San Benedetto Belbo,004,Cuneo,CN
 4207,San Damiano Macra,004,Cuneo,CN
-4208,Sanfr√®,004,Cuneo,CN
+4208,SanfrË,004,Cuneo,CN
 4209,Sanfront,004,Cuneo,CN
-4210,San Michele Mondov√¨,004,Cuneo,CN
+4210,San Michele MondovÏ,004,Cuneo,CN
 4211,Sant'Albano Stura,004,Cuneo,CN
 4212,Santa Vittoria d'Alba,004,Cuneo,CN
 4213,Santo Stefano Belbo,004,Cuneo,CN
@@ -704,12 +704,12 @@ CMN,CMNd,PRV,PRVd,PRVs
 4224,Stroppo,004,Cuneo,CN
 4225,Tarantasca,004,Cuneo,CN
 4226,Torre Bormida,004,Cuneo,CN
-4227,Torre Mondov√¨,004,Cuneo,CN
+4227,Torre MondovÏ,004,Cuneo,CN
 4228,Torre San Giorgio,004,Cuneo,CN
 4229,Torresina,004,Cuneo,CN
 4230,Treiso,004,Cuneo,CN
 4231,Trezzo Tinella,004,Cuneo,CN
-4232,Trinit√†,004,Cuneo,CN
+4232,Trinit‡,004,Cuneo,CN
 4233,Valdieri,004,Cuneo,CN
 4234,Valgrana,004,Cuneo,CN
 4235,Valloriate,004,Cuneo,CN
@@ -721,7 +721,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 4242,Vicoforte,004,Cuneo,CN
 4243,Vignolo,004,Cuneo,CN
 4244,Villafalletto,004,Cuneo,CN
-4245,Villanova Mondov√¨,004,Cuneo,CN
+4245,Villanova MondovÏ,004,Cuneo,CN
 4246,Villanova Solaro,004,Cuneo,CN
 4247,Villar San Costanzo,004,Cuneo,CN
 4248,Vinadio,004,Cuneo,CN
@@ -810,7 +810,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 5083,Penango,005,Asti,AT
 5084,Piea,005,Asti,AT
 5085,Pino d'Asti,005,Asti,AT
-5086,Piov√† Massaia,005,Asti,AT
+5086,Piov‡ Massaia,005,Asti,AT
 5087,Portacomaro,005,Asti,AT
 5088,Quaranti,005,Asti,AT
 5089,Refrancore,005,Asti,AT
@@ -1032,80 +1032,80 @@ CMN,CMNd,PRV,PRVd,PRVs
 6191,Cassano Spinola,006,Alessandria,AL
 6192,Alluvioni Piovera,006,Alessandria,AL
 6193,Lu e Cuccaro Monferrato,006,Alessandria,AL
-7001,Allein,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7002,Antey-Saint-Andr√©,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7003,Aosta,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7004,Arnad,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7005,Arvier,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7006,Avise,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7007,Ayas,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7008,Aymavilles,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7009,Bard,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7010,Bionaz,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7011,Brissogne,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7012,Brusson,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7013,Challand-Saint-Anselme,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7014,Challand-Saint-Victor,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7015,Chambave,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7016,Chamois,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7017,Champdepraz,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7018,Champorcher,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7019,Charvensod,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7020,Ch√¢tillon,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7021,Cogne,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7022,Courmayeur,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7023,Donnas,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7024,Doues,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7025,Emar√®se,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7026,Etroubles,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7027,F√©nis,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7028,Fontainemore,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7029,Gaby,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7030,Gignod,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7031,Gressan,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7032,Gressoney-La-Trinit√©,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7033,Gressoney-Saint-Jean,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7034,H√¥ne,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7035,Introd,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7036,Issime,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7037,Issogne,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7038,Joven√ßan,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7039,La Magdeleine,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7040,La Salle,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7041,La Thuile,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7042,Lillianes,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7043,Montjovet,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7044,Morgex,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7045,Nus,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7046,Ollomont,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7047,Oyace,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7048,Perloz,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7049,Pollein,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7050,Pontboset,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7051,Pontey,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7052,Pont-Saint-Martin,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7053,Pr√©-Saint-Didier,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7054,Quart,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7055,Rh√™mes-Notre-Dame,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7056,Rh√™mes-Saint-Georges,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7057,Roisan,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7058,Saint-Christophe,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7059,Saint-Denis,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7060,Saint-Marcel,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7061,Saint-Nicolas,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7062,Saint-Oyen,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7063,Saint-Pierre,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7064,Saint-Rh√©my-en-Bosses,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7065,Saint-Vincent,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7066,Sarre,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7067,Torgnon,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7068,Valgrisenche,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7069,Valpelline,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7070,Valsavarenche,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7071,Valtournenche,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7072,Verrayes,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7073,Verr√®s,007,Valle d'Aosta/Vall√©e d'Aoste,AO
-7074,Villeneuve,007,Valle d'Aosta/Vall√©e d'Aoste,AO
+7001,Allein,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7002,Antey-Saint-AndrÈ,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7003,Aosta,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7004,Arnad,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7005,Arvier,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7006,Avise,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7007,Ayas,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7008,Aymavilles,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7009,Bard,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7010,Bionaz,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7011,Brissogne,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7012,Brusson,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7013,Challand-Saint-Anselme,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7014,Challand-Saint-Victor,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7015,Chambave,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7016,Chamois,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7017,Champdepraz,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7018,Champorcher,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7019,Charvensod,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7020,Ch‚tillon,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7021,Cogne,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7022,Courmayeur,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7023,Donnas,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7024,Doues,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7025,EmarËse,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7026,Etroubles,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7027,FÈnis,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7028,Fontainemore,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7029,Gaby,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7030,Gignod,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7031,Gressan,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7032,Gressoney-La-TrinitÈ,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7033,Gressoney-Saint-Jean,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7034,HÙne,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7035,Introd,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7036,Issime,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7037,Issogne,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7038,JovenÁan,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7039,La Magdeleine,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7040,La Salle,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7041,La Thuile,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7042,Lillianes,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7043,Montjovet,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7044,Morgex,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7045,Nus,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7046,Ollomont,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7047,Oyace,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7048,Perloz,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7049,Pollein,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7050,Pontboset,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7051,Pontey,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7052,Pont-Saint-Martin,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7053,PrÈ-Saint-Didier,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7054,Quart,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7055,RhÍmes-Notre-Dame,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7056,RhÍmes-Saint-Georges,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7057,Roisan,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7058,Saint-Christophe,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7059,Saint-Denis,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7060,Saint-Marcel,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7061,Saint-Nicolas,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7062,Saint-Oyen,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7063,Saint-Pierre,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7064,Saint-RhÈmy-en-Bosses,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7065,Saint-Vincent,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7066,Sarre,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7067,Torgnon,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7068,Valgrisenche,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7069,Valpelline,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7070,Valsavarenche,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7071,Valtournenche,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7072,Verrayes,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7073,VerrËs,007,Valle d'Aosta/VallÈe d'Aoste,AO
+7074,Villeneuve,007,Valle d'Aosta/VallÈe d'Aoste,AO
 8001,Airole,008,Imperia,IM
 8002,Apricale,008,Imperia,IM
 8003,Aquila d'Arroscia,008,Imperia,IM
@@ -1150,7 +1150,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 8044,Pompeiana,008,Imperia,IM
 8045,Pontedassio,008,Imperia,IM
 8046,Pornassio,008,Imperia,IM
-8047,Prel√†,008,Imperia,IM
+8047,Prel‡,008,Imperia,IM
 8048,Ranzo,008,Imperia,IM
 8049,Rezzo,008,Imperia,IM
 8050,Riva Ligure,008,Imperia,IM
@@ -1298,7 +1298,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 10055,Sant'Olcese,010,Genova,GE
 10056,Santo Stefano d'Aveto,010,Genova,GE
 10057,Savignone,010,Genova,GE
-10058,Serra Ricc√≤,010,Genova,GE
+10058,Serra RiccÚ,010,Genova,GE
 10059,Sestri Levante,010,Genova,GE
 10060,Sori,010,Genova,GE
 10061,Tiglieto,010,Genova,GE
@@ -1330,7 +1330,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 11020,Luni,011,La Spezia,SP
 11021,Pignone,011,La Spezia,SP
 11022,Portovenere,011,La Spezia,SP
-11023,Ricc√≤ del Golfo di Spezia,011,La Spezia,SP
+11023,RiccÚ del Golfo di Spezia,011,La Spezia,SP
 11024,Riomaggiore,011,La Spezia,SP
 11025,Rocchetta di Vara,011,La Spezia,SP
 11026,Santo Stefano di Magra,011,La Spezia,SP
@@ -1473,7 +1473,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 12136,Venegono Inferiore,012,Varese,VA
 12137,Venegono Superiore,012,Varese,VA
 12138,Vergiate,012,Varese,VA
-12139,Viggi√π,012,Varese,VA
+12139,Viggi˘,012,Varese,VA
 12140,Vizzola Ticino,012,Varese,VA
 12141,Sangiano,012,Varese,VA
 12142,Maccagno con Pino e Veddasca,012,Varese,VA
@@ -1504,7 +1504,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 13036,Cadorago,013,Como,CO
 13037,Caglio,013,Como,CO
 13040,Campione d'Italia,013,Como,CO
-13041,Cant√π,013,Como,CO
+13041,Cant˘,013,Como,CO
 13042,Canzo,013,Como,CO
 13043,Capiago Intimiano,013,Como,CO
 13044,Carate Urio,013,Como,CO
@@ -1537,7 +1537,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 13097,Eupilio,013,Como,CO
 13098,Faggeto Lario,013,Como,CO
 13099,Faloppio,013,Como,CO
-13100,Fenegr√≤,013,Como,CO
+13100,FenegrÚ,013,Como,CO
 13101,Figino Serenza,013,Como,CO
 13102,Fino Mornasco,013,Como,CO
 13106,Garzeno,013,Como,CO
@@ -1840,7 +1840,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 16002,Adrara San Rocco,016,Bergamo,BG
 16003,Albano Sant'Alessandro,016,Bergamo,BG
 16004,Albino,016,Bergamo,BG
-16005,Alm√®,016,Bergamo,BG
+16005,AlmË,016,Bergamo,BG
 16006,Almenno San Bartolomeo,016,Bergamo,BG
 16007,Almenno San Salvatore,016,Bergamo,BG
 16008,Alzano Lombardo,016,Bergamo,BG
@@ -2064,7 +2064,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 16236,Vigano San Martino,016,Bergamo,BG
 16237,Vigolo,016,Bergamo,BG
 16238,Villa d'Adda,016,Bergamo,BG
-16239,Villa d'Alm√®,016,Bergamo,BG
+16239,Villa d'AlmË,016,Bergamo,BG
 16240,Villa di Serio,016,Bergamo,BG
 16241,Villa d'Ogna,016,Bergamo,BG
 16242,Villongo,016,Bergamo,BG
@@ -2241,13 +2241,13 @@ CMN,CMNd,PRV,PRVd,PRVs
 17161,Rezzato,017,Brescia,BS
 17162,Roccafranca,017,Brescia,BS
 17163,Rodengo Saiano,017,Brescia,BS
-17164,Ro√® Volciano,017,Brescia,BS
+17164,RoË Volciano,017,Brescia,BS
 17165,Roncadelle,017,Brescia,BS
 17166,Rovato,017,Brescia,BS
 17167,Rudiano,017,Brescia,BS
 17168,Sabbio Chiese,017,Brescia,BS
 17169,Sale Marasino,017,Brescia,BS
-17170,Sal√≤,017,Brescia,BS
+17170,SalÚ,017,Brescia,BS
 17171,San Felice del Benaco,017,Brescia,BS
 17172,San Gervasio Bresciano,017,Brescia,BS
 17173,San Zeno Naviglio,017,Brescia,BS
@@ -2261,7 +2261,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 17181,Sonico,017,Brescia,BS
 17182,Sulzano,017,Brescia,BS
 17183,Tavernole sul Mella,017,Brescia,BS
-17184,Tem√π,017,Brescia,BS
+17184,Tem˘,017,Brescia,BS
 17185,Tignale,017,Brescia,BS
 17186,Torbole Casaglia,017,Brescia,BS
 17187,Toscolano-Maderno,017,Brescia,BS
@@ -2292,7 +2292,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 18006,Badia Pavese,018,Pavia,PV
 18007,Bagnaria,018,Pavia,PV
 18008,Barbianello,018,Pavia,PV
-18009,Bascap√®,018,Pavia,PV
+18009,BascapË,018,Pavia,PV
 18011,Bastida Pancarana,018,Pavia,PV
 18012,Battuda,018,Pavia,PV
 18013,Belgioioso,018,Pavia,PV
@@ -2347,7 +2347,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 18065,Frascarolo,018,Pavia,PV
 18066,Galliavola,018,Pavia,PV
 18067,Gambarana,018,Pavia,PV
-18068,Gambol√≤,018,Pavia,PV
+18068,GambolÚ,018,Pavia,PV
 18069,Garlasco,018,Pavia,PV
 18071,Gerenzago,018,Pavia,PV
 18072,Giussago,018,Pavia,PV
@@ -2378,7 +2378,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 18097,Montescano,018,Pavia,PV
 18098,Montesegale,018,Pavia,PV
 18099,Monticelli Pavese,018,Pavia,PV
-18100,Mont√π Beccaria,018,Pavia,PV
+18100,Mont˘ Beccaria,018,Pavia,PV
 18101,Mornico Losana,018,Pavia,PV
 18102,Mortara,018,Pavia,PV
 18103,Nicorvo,018,Pavia,PV
@@ -2439,7 +2439,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 18159,Torre d'Isola,018,Pavia,PV
 18160,Torrevecchia Pia,018,Pavia,PV
 18161,Torricella Verzate,018,Pavia,PV
-18162,Travac√≤ Siccomario,018,Pavia,PV
+18162,TravacÚ Siccomario,018,Pavia,PV
 18163,Trivolzio,018,Pavia,PV
 18164,Tromello,018,Pavia,PV
 18165,Trovo,018,Pavia,PV
@@ -2465,7 +2465,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 18186,Zeme,018,Pavia,PV
 18187,Zenevredo,018,Pavia,PV
 18188,Zerbo,018,Pavia,PV
-18189,Zerbol√≤,018,Pavia,PV
+18189,ZerbolÚ,018,Pavia,PV
 18190,Zinasco,018,Pavia,PV
 18191,Cornale e Bastida,018,Pavia,PV
 18192,Corteolona e Genzone,018,Pavia,PV
@@ -2677,7 +2677,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 21028,Dobbiaco,021,Bolzano/Bozen,BZ
 21029,Egna,021,Bolzano/Bozen,BZ
 21030,Falzes,021,Bolzano/Bozen,BZ
-21031,Fi√® allo Sciliar,021,Bolzano/Bozen,BZ
+21031,FiË allo Sciliar,021,Bolzano/Bozen,BZ
 21032,Fortezza,021,Bolzano/Bozen,BZ
 21033,Funes,021,Bolzano/Bozen,BZ
 21034,Gais,021,Bolzano/Bozen,BZ
@@ -2691,7 +2691,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 21042,Lasa,021,Bolzano/Bozen,BZ
 21043,Lauregno,021,Bolzano/Bozen,BZ
 21044,Luson,021,Bolzano/Bozen,BZ
-21045,Magr√® sulla strada del vino,021,Bolzano/Bozen,BZ
+21045,MagrË sulla strada del vino,021,Bolzano/Bozen,BZ
 21046,Malles Venosta,021,Bolzano/Bozen,BZ
 21047,Marebbe,021,Bolzano/Bozen,BZ
 21048,Marlengo,021,Bolzano/Bozen,BZ
@@ -2769,7 +2769,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 22005,Andalo,022,Trento,TN
 22006,Arco,022,Trento,TN
 22007,Avio,022,Trento,TN
-22009,Baselga di Pin√®,022,Trento,TN
+22009,Baselga di PinË,022,Trento,TN
 22011,Bedollo,022,Trento,TN
 22013,Besenello,022,Trento,TN
 22015,Bieno,022,Trento,TN
@@ -2812,7 +2812,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 22078,Drena,022,Trento,TN
 22079,Dro,022,Trento,TN
 22081,Fai della Paganella,022,Trento,TN
-22083,Fiav√®,022,Trento,TN
+22083,FiavË,022,Trento,TN
 22085,Fierozzo,022,Trento,TN
 22087,Folgaria,022,Trento,TN
 22089,Fornace,022,Trento,TN
@@ -2829,7 +2829,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 22106,Livo,022,Trento,TN
 22108,Lona-Lases,022,Trento,TN
 22109,Luserna,022,Trento,TN
-22110,Mal√©,022,Trento,TN
+22110,MalÈ,022,Trento,TN
 22112,Massimeno,022,Trento,TN
 22113,Mazzin,022,Trento,TN
 22114,Mezzana,022,Trento,TN
@@ -2845,8 +2845,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 22129,Novaledo,022,Trento,TN
 22130,Ospedaletto,022,Trento,TN
 22131,Ossana,022,Trento,TN
-22133,Pal√π del Fersina,022,Trento,TN
-22134,Panchi√†,022,Trento,TN
+22133,Pal˘ del Fersina,022,Trento,TN
+22134,Panchi‡,022,Trento,TN
 22135,Ronzo-Chienis,022,Trento,TN
 22136,Peio,022,Trento,TN
 22137,Pellizzano,022,Trento,TN
@@ -2862,9 +2862,9 @@ CMN,CMNd,PRV,PRVd,PRVs
 22156,Roncegno Terme,022,Trento,TN
 22157,Ronchi Valsugana,022,Trento,TN
 22159,Ronzone,022,Trento,TN
-22160,Rover√® della Luna,022,Trento,TN
+22160,RoverË della Luna,022,Trento,TN
 22161,Rovereto,022,Trento,TN
-22162,Ruffr√®-Mendola,022,Trento,TN
+22162,RuffrË-Mendola,022,Trento,TN
 22163,Rumo,022,Trento,TN
 22164,Sagron Mis,022,Trento,TN
 22165,Samone,022,Trento,TN
@@ -2916,7 +2916,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 22239,Borgo Lares,022,Trento,TN
 22240,Castel Ivano,022,Trento,TN
 22241,Cembra Lisignago,022,Trento,TN
-22242,Cont√†,022,Trento,TN
+22242,Cont‡,022,Trento,TN
 22243,Madruzzo,022,Trento,TN
 22244,Porte di Rendena,022,Trento,TN
 22245,Primiero San Martino di Castrozza,022,Trento,TN
@@ -2959,8 +2959,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 23028,Colognola ai Colli,023,Verona,VR
 23029,Concamarise,023,Verona,VR
 23030,Costermano sul Garda,023,Verona,VR
-23031,Dolc√®,023,Verona,VR
-23032,Erb√®,023,Verona,VR
+23031,DolcË,023,Verona,VR
+23032,ErbË,023,Verona,VR
 23033,Erbezzo,023,Verona,VR
 23034,Ferrara di Monte Baldo,023,Verona,VR
 23035,Fumane,023,Verona,VR
@@ -2984,18 +2984,18 @@ CMN,CMNd,PRV,PRVd,PRVs
 23053,Nogara,023,Verona,VR
 23054,Nogarole Rocca,023,Verona,VR
 23055,Oppeano,023,Verona,VR
-23056,Pal√π,023,Verona,VR
+23056,Pal˘,023,Verona,VR
 23057,Pastrengo,023,Verona,VR
 23058,Pescantina,023,Verona,VR
 23059,Peschiera del Garda,023,Verona,VR
 23060,Povegliano Veronese,023,Verona,VR
 23061,Pressana,023,Verona,VR
 23062,Rivoli Veronese,023,Verona,VR
-23063,Ronc√†,023,Verona,VR
+23063,Ronc‡,023,Verona,VR
 23064,Ronco all'Adige,023,Verona,VR
 23065,Roverchiara,023,Verona,VR
-23066,Roveredo di Gu√†,023,Verona,VR
-23067,Rover√® Veronese,023,Verona,VR
+23066,Roveredo di Gu‡,023,Verona,VR
+23067,RoverË Veronese,023,Verona,VR
 23068,Salizzole,023,Verona,VR
 23069,San Bonifacio,023,Verona,VR
 23070,San Giovanni Ilarione,023,Verona,VR
@@ -3012,7 +3012,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 23081,Soave,023,Verona,VR
 23082,Sommacampagna,023,Verona,VR
 23083,Sona,023,Verona,VR
-23084,Sorg√†,023,Verona,VR
+23084,Sorg‡,023,Verona,VR
 23085,Terrazzo,023,Verona,VR
 23086,Torri del Benaco,023,Verona,VR
 23087,Tregnago,023,Verona,VR
@@ -3048,7 +3048,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 24020,Calvene,024,Vicenza,VI
 24021,Camisano Vicentino,024,Vicenza,VI
 24022,Campiglia dei Berici,024,Vicenza,VI
-24024,Carr√®,024,Vicenza,VI
+24024,CarrË,024,Vicenza,VI
 24025,Cartigliano,024,Vicenza,VI
 24026,Cassola,024,Vicenza,VI
 24027,Castegnero,024,Vicenza,VI
@@ -3104,7 +3104,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 24084,Recoaro Terme,024,Vicenza,VI
 24085,Roana,024,Vicenza,VI
 24086,Romano d'Ezzelino,024,Vicenza,VI
-24087,Ros√†,024,Vicenza,VI
+24087,Ros‡,024,Vicenza,VI
 24088,Rossano Veneto,024,Vicenza,VI
 24089,Rotzo,024,Vicenza,VI
 24090,Salcedo,024,Vicenza,VI
@@ -3132,7 +3132,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 24116,Vicenza,024,Vicenza,VI
 24117,Villaga,024,Vicenza,VI
 24118,Villaverla,024,Vicenza,VI
-24119,Zan√®,024,Vicenza,VI
+24119,ZanË,024,Vicenza,VI
 24120,Zermeghedo,024,Vicenza,VI
 24121,Zovencedo,024,Vicenza,VI
 24122,Zugliano,024,Vicenza,VI
@@ -3144,7 +3144,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 25001,Agordo,025,Belluno,BL
 25002,Alano di Piave,025,Belluno,BL
 25003,Alleghe,025,Belluno,BL
-25004,Arsi√®,025,Belluno,BL
+25004,ArsiË,025,Belluno,BL
 25005,Auronzo di Cadore,025,Belluno,BL
 25006,Belluno,025,Belluno,BL
 25007,Borca di Cadore,025,Belluno,BL
@@ -3177,7 +3177,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 25043,Rivamonte Agordino,025,Belluno,BL
 25044,Rocca Pietore,025,Belluno,BL
 25045,San Gregorio nelle Alpi,025,Belluno,BL
-25046,San Nicol√≤ di Comelico,025,Belluno,BL
+25046,San NicolÚ di Comelico,025,Belluno,BL
 25047,San Pietro di Cadore,025,Belluno,BL
 25048,Santa Giustina,025,Belluno,BL
 25049,San Tomaso Agordino,025,Belluno,BL
@@ -3196,7 +3196,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 25065,Vigo di Cadore,025,Belluno,BL
 25066,Vodo Cadore,025,Belluno,BL
 25067,Voltago Agordino,025,Belluno,BL
-25069,Zopp√® di Cadore,025,Belluno,BL
+25069,ZoppË di Cadore,025,Belluno,BL
 25070,Quero Vas,025,Belluno,BL
 25071,Longarone,025,Belluno,BL
 25072,Alpago,025,Belluno,BL
@@ -3220,7 +3220,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 26016,Chiarano,026,Treviso,TV
 26017,Cimadolmo,026,Treviso,TV
 26018,Cison di Valmarino,026,Treviso,TV
-26019,Codogn√®,026,Treviso,TV
+26019,CodognË,026,Treviso,TV
 26020,Colle Umberto,026,Treviso,TV
 26021,Conegliano,026,Treviso,TV
 26022,Cordignano,026,Treviso,TV
@@ -3237,7 +3237,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 26034,Gorgo al Monticano,026,Treviso,TV
 26035,Istrana,026,Treviso,TV
 26036,Loria,026,Treviso,TV
-26037,Mansu√®,026,Treviso,TV
+26037,MansuË,026,Treviso,TV
 26038,Mareno di Piave,026,Treviso,TV
 26039,Maser,026,Treviso,TV
 26040,Maserada sul Piave,026,Treviso,TV
@@ -3259,7 +3259,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 26057,Pieve di Soligo,026,Treviso,TV
 26058,Ponte di Piave,026,Treviso,TV
 26059,Ponzano Veneto,026,Treviso,TV
-26060,Portobuffol√®,026,Treviso,TV
+26060,PortobuffolË,026,Treviso,TV
 26061,Possagno,026,Treviso,TV
 26062,Povegliano,026,Treviso,TV
 26063,Preganziol,026,Treviso,TV
@@ -3312,7 +3312,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 27014,Fiesso d'Artico,027,Venezia,VE
 27015,Fossalta di Piave,027,Venezia,VE
 27016,Fossalta di Portogruaro,027,Venezia,VE
-27017,Foss√≤,027,Venezia,VE
+27017,FossÚ,027,Venezia,VE
 27018,Gruaro,027,Venezia,VE
 27019,Jesolo,027,Venezia,VE
 27020,Marcon,027,Venezia,VE
@@ -3328,11 +3328,11 @@ CMN,CMNd,PRV,PRVd,PRVs
 27030,Pramaggiore,027,Venezia,VE
 27031,Quarto d'Altino,027,Venezia,VE
 27032,Salzano,027,Venezia,VE
-27033,San Don√† di Piave,027,Venezia,VE
+27033,San Don‡ di Piave,027,Venezia,VE
 27034,San Michele al Tagliamento,027,Venezia,VE
 27035,Santa Maria di Sala,027,Venezia,VE
 27036,San Stino di Livenza,027,Venezia,VE
-27037,Scorz√®,027,Venezia,VE
+27037,ScorzË,027,Venezia,VE
 27038,Spinea,027,Venezia,VE
 27039,Stra,027,Venezia,VE
 27040,Teglio Veneto,027,Venezia,VE
@@ -3344,7 +3344,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 28002,Agna,028,Padova,PD
 28003,Albignasego,028,Padova,PD
 28004,Anguillara Veneta,028,Padova,PD
-28005,Arqu√† Petrarca,028,Padova,PD
+28005,Arqu‡ Petrarca,028,Padova,PD
 28006,Arre,028,Padova,PD
 28007,Arzergrande,028,Padova,PD
 28008,Bagnoli di Sopra,028,Padova,PD
@@ -3385,7 +3385,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 28045,Limena,028,Padova,PD
 28046,Loreggia,028,Padova,PD
 28047,Lozzo Atestino,028,Padova,PD
-28048,Maser√† di Padova,028,Padova,PD
+28048,Maser‡ di Padova,028,Padova,PD
 28049,Masi,028,Padova,PD
 28050,Massanzago,028,Padova,PD
 28052,Megliadino San Vitale,028,Padova,PD
@@ -3405,7 +3405,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 28066,Polverara,028,Padova,PD
 28067,Ponso,028,Padova,PD
 28068,Pontelongo,028,Padova,PD
-28069,Ponte San Nicol√≤,028,Padova,PD
+28069,Ponte San NicolÚ,028,Padova,PD
 28070,Pozzonovo,028,Padova,PD
 28071,Rovolon,028,Padova,PD
 28072,Rubano,028,Padova,PD
@@ -3444,7 +3444,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 28107,Borgo Veneto,028,Padova,PD
 29001,Adria,029,Rovigo,RO
 29002,Ariano nel Polesine,029,Rovigo,RO
-29003,Arqu√† Polesine,029,Rovigo,RO
+29003,Arqu‡ Polesine,029,Rovigo,RO
 29004,Badia Polesine,029,Rovigo,RO
 29005,Bagnolo di Po,029,Rovigo,RO
 29006,Bergantino,029,Rovigo,RO
@@ -3628,7 +3628,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 30191,Treppo Ligosullo,030,Udine,UD
 31001,Capriva del Friuli,031,Gorizia,GO
 31002,Cormons,031,Gorizia,GO
-31003,Doberd√≤ del Lago,031,Gorizia,GO
+31003,DoberdÚ del Lago,031,Gorizia,GO
 31004,Dolegna del Collio,031,Gorizia,GO
 31005,Farra d'Isonzo,031,Gorizia,GO
 31006,Fogliano Redipuglia,031,Gorizia,GO
@@ -3930,36 +3930,36 @@ CMN,CMNd,PRV,PRVd,PRVs
 39016,Russi,039,Ravenna,RA
 39017,Sant'Agata sul Santerno,039,Ravenna,RA
 39018,Solarolo,039,Ravenna,RA
-40001,Bagno di Romagna,040,Forl√¨-Cesena,FC
-40003,Bertinoro,040,Forl√¨-Cesena,FC
-40004,Borghi,040,Forl√¨-Cesena,FC
-40005,Castrocaro Terme e Terra del Sole,040,Forl√¨-Cesena,FC
-40007,Cesena,040,Forl√¨-Cesena,FC
-40008,Cesenatico,040,Forl√¨-Cesena,FC
-40009,Civitella di Romagna,040,Forl√¨-Cesena,FC
-40011,Dovadola,040,Forl√¨-Cesena,FC
-40012,Forl√¨,040,Forl√¨-Cesena,FC
-40013,Forlimpopoli,040,Forl√¨-Cesena,FC
-40014,Galeata,040,Forl√¨-Cesena,FC
-40015,Gambettola,040,Forl√¨-Cesena,FC
-40016,Gatteo,040,Forl√¨-Cesena,FC
-40018,Longiano,040,Forl√¨-Cesena,FC
-40019,Meldola,040,Forl√¨-Cesena,FC
-40020,Mercato Saraceno,040,Forl√¨-Cesena,FC
-40022,Modigliana,040,Forl√¨-Cesena,FC
-40028,Montiano,040,Forl√¨-Cesena,FC
-40031,Portico e San Benedetto,040,Forl√¨-Cesena,FC
-40032,Predappio,040,Forl√¨-Cesena,FC
-40033,Premilcuore,040,Forl√¨-Cesena,FC
-40036,Rocca San Casciano,040,Forl√¨-Cesena,FC
-40037,Roncofreddo,040,Forl√¨-Cesena,FC
-40041,San Mauro Pascoli,040,Forl√¨-Cesena,FC
-40043,Santa Sofia,040,Forl√¨-Cesena,FC
-40044,Sarsina,040,Forl√¨-Cesena,FC
-40045,Savignano sul Rubicone,040,Forl√¨-Cesena,FC
-40046,Sogliano al Rubicone,040,Forl√¨-Cesena,FC
-40049,Tredozio,040,Forl√¨-Cesena,FC
-40050,Verghereto,040,Forl√¨-Cesena,FC
+40001,Bagno di Romagna,040,ForlÏ-Cesena,FC
+40003,Bertinoro,040,ForlÏ-Cesena,FC
+40004,Borghi,040,ForlÏ-Cesena,FC
+40005,Castrocaro Terme e Terra del Sole,040,ForlÏ-Cesena,FC
+40007,Cesena,040,ForlÏ-Cesena,FC
+40008,Cesenatico,040,ForlÏ-Cesena,FC
+40009,Civitella di Romagna,040,ForlÏ-Cesena,FC
+40011,Dovadola,040,ForlÏ-Cesena,FC
+40012,ForlÏ,040,ForlÏ-Cesena,FC
+40013,Forlimpopoli,040,ForlÏ-Cesena,FC
+40014,Galeata,040,ForlÏ-Cesena,FC
+40015,Gambettola,040,ForlÏ-Cesena,FC
+40016,Gatteo,040,ForlÏ-Cesena,FC
+40018,Longiano,040,ForlÏ-Cesena,FC
+40019,Meldola,040,ForlÏ-Cesena,FC
+40020,Mercato Saraceno,040,ForlÏ-Cesena,FC
+40022,Modigliana,040,ForlÏ-Cesena,FC
+40028,Montiano,040,ForlÏ-Cesena,FC
+40031,Portico e San Benedetto,040,ForlÏ-Cesena,FC
+40032,Predappio,040,ForlÏ-Cesena,FC
+40033,Premilcuore,040,ForlÏ-Cesena,FC
+40036,Rocca San Casciano,040,ForlÏ-Cesena,FC
+40037,Roncofreddo,040,ForlÏ-Cesena,FC
+40041,San Mauro Pascoli,040,ForlÏ-Cesena,FC
+40043,Santa Sofia,040,ForlÏ-Cesena,FC
+40044,Sarsina,040,ForlÏ-Cesena,FC
+40045,Savignano sul Rubicone,040,ForlÏ-Cesena,FC
+40046,Sogliano al Rubicone,040,ForlÏ-Cesena,FC
+40049,Tredozio,040,ForlÏ-Cesena,FC
+40050,Verghereto,040,ForlÏ-Cesena,FC
 41001,Acqualagna,041,Pesaro e Urbino,PU
 41002,Apecchio,041,Pesaro e Urbino,PU
 41005,Belforte all'Isauro,041,Pesaro e Urbino,PU
@@ -4322,7 +4322,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 51006,Capolona,051,Arezzo,AR
 51007,Caprese Michelangelo,051,Arezzo,AR
 51008,Castel Focognano,051,Arezzo,AR
-51010,Castel San Niccol√≤,051,Arezzo,AR
+51010,Castel San NiccolÚ,051,Arezzo,AR
 51011,Castiglion Fibocchi,051,Arezzo,AR
 51012,Castiglion Fiorentino,051,Arezzo,AR
 51013,Cavriglia,051,Arezzo,AR
@@ -4347,7 +4347,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 51037,Subbiano,051,Arezzo,AR
 51038,Talla,051,Arezzo,AR
 51039,Terranuova Bracciolini,051,Arezzo,AR
-51040,Castelfranco Piandisc√≤,051,Arezzo,AR
+51040,Castelfranco PiandiscÚ,051,Arezzo,AR
 51041,Pratovecchio Stia,051,Arezzo,AR
 51042,Laterina Pergine Valdarno,051,Arezzo,AR
 52001,Abbadia San Salvatore,052,Siena,SI
@@ -4424,8 +4424,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 54009,Castiglione del Lago,054,Perugia,PG
 54010,Cerreto di Spoleto,054,Perugia,PG
 54011,Citerna,054,Perugia,PG
-54012,Citt√† della Pieve,054,Perugia,PG
-54013,Citt√† di Castello,054,Perugia,PG
+54012,Citt‡ della Pieve,054,Perugia,PG
+54013,Citt‡ di Castello,054,Perugia,PG
 54014,Collazzone,054,Perugia,PG
 54015,Corciano,054,Perugia,PG
 54016,Costacciaro,054,Perugia,PG
@@ -5154,7 +5154,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 63087,Villaricca,063,Napoli,NA
 63088,Visciano,063,Napoli,NA
 63089,Volla,063,Napoli,NA
-63090,Santa Maria la Carit√†,063,Napoli,NA
+63090,Santa Maria la Carit‡,063,Napoli,NA
 63091,Trecase,063,Napoli,NA
 63092,Massa di Somma,063,Napoli,NA
 64001,Aiello del Sabato,064,Avellino,AV
@@ -5599,7 +5599,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 68009,Castiglione a Casauria,068,Pescara,PE
 68010,Catignano,068,Pescara,PE
 68011,Cepagatti,068,Pescara,PE
-68012,Citt√† Sant'Angelo,068,Pescara,PE
+68012,Citt‡ Sant'Angelo,068,Pescara,PE
 68013,Civitaquana,068,Pescara,PE
 68014,Civitella Casanova,068,Pescara,PE
 68015,Collecorvino,068,Pescara,PE
@@ -6023,7 +6023,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 75049,Montesano Salentino,075,Lecce,LE
 75050,Morciano di Leuca,075,Lecce,LE
 75051,Muro Leccese,075,Lecce,LE
-75052,Nard√≤,075,Lecce,LE
+75052,NardÚ,075,Lecce,LE
 75053,Neviano,075,Lecce,LE
 75054,Nociglia,075,Lecce,LE
 75055,Novoli,075,Lecce,LE
@@ -6031,7 +6031,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 75057,Otranto,075,Lecce,LE
 75058,Palmariggi,075,Lecce,LE
 75059,Parabita,075,Lecce,LE
-75060,Pat√π,075,Lecce,LE
+75060,Pat˘,075,Lecce,LE
 75061,Poggiardo,075,Lecce,LE
 75063,Racale,075,Lecce,LE
 75064,Ruffano,075,Lecce,LE
@@ -6044,7 +6044,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 75071,San Pietro in Lama,075,Lecce,LE
 75072,Santa Cesarea Terme,075,Lecce,LE
 75073,Scorrano,075,Lecce,LE
-75074,Secl√¨,075,Lecce,LE
+75074,SeclÏ,075,Lecce,LE
 75075,Sogliano Cavour,075,Lecce,LE
 75076,Soleto,075,Lecce,LE
 75077,Specchia,075,Lecce,LE
@@ -6268,7 +6268,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 78068,Longobucco,078,Cosenza,CS
 78069,Lungro,078,Cosenza,CS
 78070,Luzzi,078,Cosenza,CS
-78071,Maier√†,078,Cosenza,CS
+78071,Maier‡,078,Cosenza,CS
 78072,Malito,078,Cosenza,CS
 78073,Malvito,078,Cosenza,CS
 78074,Mandatoriccio,078,Cosenza,CS
@@ -6400,7 +6400,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 79089,Palermiti,079,Catanzaro,CZ
 79092,Pentone,079,Catanzaro,CZ
 79094,Petrizzi,079,Catanzaro,CZ
-79095,Petron√†,079,Catanzaro,CZ
+79095,Petron‡,079,Catanzaro,CZ
 79096,Pianopoli,079,Catanzaro,CZ
 79099,Platania,079,Catanzaro,CZ
 79108,San Floro,079,Catanzaro,CZ
@@ -6423,7 +6423,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 79138,Soveria Mannelli,079,Catanzaro,CZ
 79139,Soveria Simeri,079,Catanzaro,CZ
 79142,Squillace,079,Catanzaro,CZ
-79143,Stalett√¨,079,Catanzaro,CZ
+79143,StalettÏ,079,Catanzaro,CZ
 79146,Taverna,079,Catanzaro,CZ
 79147,Tiriolo,079,Catanzaro,CZ
 79148,Torre di Ruggiero,079,Catanzaro,CZ
@@ -6455,7 +6455,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 80023,Careri,080,Reggio Calabria,RC
 80024,Casignana,080,Reggio Calabria,RC
 80025,Caulonia,080,Reggio Calabria,RC
-80026,Cimin√†,080,Reggio Calabria,RC
+80026,Cimin‡,080,Reggio Calabria,RC
 80027,Cinquefrondi,080,Reggio Calabria,RC
 80028,Cittanova,080,Reggio Calabria,RC
 80029,Condofuri,080,Reggio Calabria,RC
@@ -6477,7 +6477,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 80045,Marina di Gioiosa Ionica,080,Reggio Calabria,RC
 80046,Maropati,080,Reggio Calabria,RC
 80047,Martone,080,Reggio Calabria,RC
-80048,Melicucc√†,080,Reggio Calabria,RC
+80048,Melicucc‡,080,Reggio Calabria,RC
 80049,Melicucco,080,Reggio Calabria,RC
 80050,Melito di Porto Salvo,080,Reggio Calabria,RC
 80051,Molochio,080,Reggio Calabria,RC
@@ -6489,7 +6489,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 80057,Palmi,080,Reggio Calabria,RC
 80058,Pazzano,080,Reggio Calabria,RC
 80059,Placanica,080,Reggio Calabria,RC
-80060,Plat√¨,080,Reggio Calabria,RC
+80060,PlatÏ,080,Reggio Calabria,RC
 80061,Polistena,080,Reggio Calabria,RC
 80062,Portigliola,080,Reggio Calabria,RC
 80063,Reggio di Calabria,080,Reggio Calabria,RC
@@ -6504,7 +6504,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 80072,San Giovanni di Gerace,080,Reggio Calabria,RC
 80073,San Lorenzo,080,Reggio Calabria,RC
 80074,San Luca,080,Reggio Calabria,RC
-80075,San Pietro di Carid√†,080,Reggio Calabria,RC
+80075,San Pietro di Carid‡,080,Reggio Calabria,RC
 80076,San Procopio,080,Reggio Calabria,RC
 80077,San Roberto,080,Reggio Calabria,RC
 80078,Santa Cristina d'Aspromonte,080,Reggio Calabria,RC
@@ -6577,8 +6577,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 82023,Casteldaccia,082,Palermo,PA
 82024,Castellana Sicula,082,Palermo,PA
 82025,Castronovo di Sicilia,082,Palermo,PA
-82026,Cefal√† Diana,082,Palermo,PA
-82027,Cefal√π,082,Palermo,PA
+82026,Cefal‡ Diana,082,Palermo,PA
+82027,Cefal˘,082,Palermo,PA
 82028,Cerda,082,Palermo,PA
 82029,Chiusa Sclafani,082,Palermo,PA
 82030,Ciminna,082,Palermo,PA
@@ -6635,11 +6635,11 @@ CMN,CMNd,PRV,PRVd,PRVs
 82081,Scillato,082,Palermo,PA
 82082,Blufi,082,Palermo,PA
 83001,Alcara li Fusi,083,Messina,ME
-83002,Al√¨,083,Messina,ME
-83003,Al√¨ Terme,083,Messina,ME
+83002,AlÏ,083,Messina,ME
+83003,AlÏ Terme,083,Messina,ME
 83004,Antillo,083,Messina,ME
 83005,Barcellona Pozzo di Gotto,083,Messina,ME
-83006,Basic√≤,083,Messina,ME
+83006,BasicÚ,083,Messina,ME
 83007,Brolo,083,Messina,ME
 83008,Capizzi,083,Messina,ME
 83009,Capo d'Orlando,083,Messina,ME
@@ -6650,16 +6650,16 @@ CMN,CMNd,PRV,PRVd,PRVs
 83014,Castell'Umberto,083,Messina,ME
 83015,Castelmola,083,Messina,ME
 83016,Castroreale,083,Messina,ME
-83017,Cesar√≤,083,Messina,ME
-83018,Condr√≤,083,Messina,ME
+83017,CesarÚ,083,Messina,ME
+83018,CondrÚ,083,Messina,ME
 83019,Falcone,083,Messina,ME
 83020,Ficarra,083,Messina,ME
 83021,Fiumedinisi,083,Messina,ME
 83022,Floresta,083,Messina,ME
 83023,Fondachelli-Fantina,083,Messina,ME
-83024,Forza d'Agr√≤,083,Messina,ME
+83024,Forza d'AgrÚ,083,Messina,ME
 83025,Francavilla di Sicilia,083,Messina,ME
-83026,Frazzan√≤,083,Messina,ME
+83026,FrazzanÚ,083,Messina,ME
 83027,Furci Siculo,083,Messina,ME
 83028,Furnari,083,Messina,ME
 83029,Gaggi,083,Messina,ME
@@ -6668,7 +6668,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 83032,Giardini-Naxos,083,Messina,ME
 83033,Gioiosa Marea,083,Messina,ME
 83034,Graniti,083,Messina,ME
-83035,Gualtieri Sicamin√≤,083,Messina,ME
+83035,Gualtieri SicaminÚ,083,Messina,ME
 83036,Itala,083,Messina,ME
 83037,Leni,083,Messina,ME
 83038,Letojanni,083,Messina,ME
@@ -6679,8 +6679,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 83043,Malfa,083,Messina,ME
 83044,Malvagna,083,Messina,ME
 83045,Mandanici,083,Messina,ME
-83046,Mazzarr√† Sant'Andrea,083,Messina,ME
-83047,Mer√¨,083,Messina,ME
+83046,Mazzarr‡ Sant'Andrea,083,Messina,ME
+83047,MerÏ,083,Messina,ME
 83048,Messina,083,Messina,ME
 83049,Milazzo,083,Messina,ME
 83050,Militello Rosmarino,083,Messina,ME
@@ -6708,7 +6708,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 83072,Roccalumera,083,Messina,ME
 83073,Roccavaldina,083,Messina,ME
 83074,Roccella Valdemone,083,Messina,ME
-83075,Rod√¨ Milici,083,Messina,ME
+83075,RodÏ Milici,083,Messina,ME
 83076,Rometta,083,Messina,ME
 83077,San Filippo del Mela,083,Messina,ME
 83078,San Fratello,083,Messina,ME
@@ -6752,7 +6752,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 84008,Camastra,084,Agrigento,AG
 84009,Cammarata,084,Agrigento,AG
 84010,Campobello di Licata,084,Agrigento,AG
-84011,Canicatt√¨,084,Agrigento,AG
+84011,CanicattÏ,084,Agrigento,AG
 84012,Casteltermini,084,Agrigento,AG
 84013,Castrofilippo,084,Agrigento,AG
 84014,Cattolica Eraclea,084,Agrigento,AG
@@ -6859,7 +6859,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 87030,Motta Sant'Anastasia,087,Catania,CT
 87031,Nicolosi,087,Catania,CT
 87032,Palagonia,087,Catania,CT
-87033,Patern√≤,087,Catania,CT
+87033,PaternÚ,087,Catania,CT
 87034,Pedara,087,Catania,CT
 87035,Piedimonte Etneo,087,Catania,CT
 87036,Raddusa,087,Catania,CT
@@ -6919,7 +6919,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 89020,Portopalo di Capo Passero,089,Siracusa,SR
 89021,Priolo Gargallo,089,Siracusa,SR
 90001,Aggius,090,Sassari,SS
-90002,Al√† dei Sardi,090,Sassari,SS
+90002,Al‡ dei Sardi,090,Sassari,SS
 90003,Alghero,090,Sassari,SS
 90004,Anela,090,Sassari,SS
 90005,Ardara,090,Sassari,SS
@@ -6934,7 +6934,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 90014,Bortigiadas,090,Sassari,SS
 90015,Borutta,090,Sassari,SS
 90016,Bottidda,090,Sassari,SS
-90017,Buddus√≤,090,Sassari,SS
+90017,BuddusÚ,090,Sassari,SS
 90018,Bultei,090,Sassari,SS
 90019,Bulzi,090,Sassari,SS
 90020,Burgos,090,Sassari,SS
@@ -6961,7 +6961,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 90041,Monti,090,Sassari,SS
 90042,Mores,090,Sassari,SS
 90043,Muros,090,Sassari,SS
-90044,Nughedu San Nicol√≤,090,Sassari,SS
+90044,Nughedu San NicolÚ,090,Sassari,SS
 90045,Nule,090,Sassari,SS
 90046,Nulvi,090,Sassari,SS
 90047,Olbia,090,Sassari,SS
@@ -6991,7 +6991,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 90071,Thiesi,090,Sassari,SS
 90072,Tissi,090,Sassari,SS
 90073,Torralba,090,Sassari,SS
-90074,Trinit√† d'Agultu e Vignola,090,Sassari,SS
+90074,Trinit‡ d'Agultu e Vignola,090,Sassari,SS
 90075,Tula,090,Sassari,SS
 90076,Uri,090,Sassari,SS
 90077,Usini,090,Sassari,SS
@@ -7016,7 +7016,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 91004,Austis,091,Nuoro,NU
 91005,Bari Sardo,091,Nuoro,NU
 91006,Baunei,091,Nuoro,NU
-91007,Belv√¨,091,Nuoro,NU
+91007,BelvÏ,091,Nuoro,NU
 91008,Birori,091,Nuoro,NU
 91009,Bitti,091,Nuoro,NU
 91010,Bolotana,091,Nuoro,NU
@@ -7029,7 +7029,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 91024,Fonni,091,Nuoro,NU
 91025,Gadoni,091,Nuoro,NU
 91026,Gairo,091,Nuoro,NU
-91027,Galtell√¨,091,Nuoro,NU
+91027,GaltellÏ,091,Nuoro,NU
 91028,Gavoi,091,Nuoro,NU
 91031,Girasole,091,Nuoro,NU
 91032,Ilbono,091,Nuoro,NU
@@ -7039,7 +7039,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 91038,Lei,091,Nuoro,NU
 91039,Loceri,091,Nuoro,NU
 91040,Loculi,091,Nuoro,NU
-91041,Lod√®,091,Nuoro,NU
+91041,LodË,091,Nuoro,NU
 91042,Lotzorai,091,Nuoro,NU
 91043,Lula,091,Nuoro,NU
 91044,Macomer,091,Nuoro,NU
@@ -7050,7 +7050,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 91055,Oliena,091,Nuoro,NU
 91056,Ollolai,091,Nuoro,NU
 91057,Olzai,091,Nuoro,NU
-91058,Onan√¨,091,Nuoro,NU
+91058,OnanÏ,091,Nuoro,NU
 91059,Onifai,091,Nuoro,NU
 91060,Oniferi,091,Nuoro,NU
 91061,Orani,091,Nuoro,NU
@@ -7075,8 +7075,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 91090,Teti,091,Nuoro,NU
 91091,Tiana,091,Nuoro,NU
 91093,Tonara,091,Nuoro,NU
-91094,Torp√®,091,Nuoro,NU
-91095,Tortol√¨,091,Nuoro,NU
+91094,TorpË,091,Nuoro,NU
+91095,TortolÏ,091,Nuoro,NU
 91097,Triei,091,Nuoro,NU
 91098,Ulassai,091,Nuoro,NU
 91099,Urzulei,091,Nuoro,NU
@@ -7170,7 +7170,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 94017,Colli a Volturno,094,Isernia,IS
 94018,Conca Casale,094,Isernia,IS
 94019,Filignano,094,Isernia,IS
-94020,Forl√¨ del Sannio,094,Isernia,IS
+94020,ForlÏ del Sannio,094,Isernia,IS
 94021,Fornelli,094,Isernia,IS
 94022,Frosolone,094,Isernia,IS
 94023,Isernia,094,Isernia,IS
@@ -7216,7 +7216,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 95011,Baratili San Pietro,095,Oristano,OR
 95012,Baressa,095,Oristano,OR
 95013,Bauladu,095,Oristano,OR
-95014,Bidon√¨,095,Oristano,OR
+95014,BidonÏ,095,Oristano,OR
 95015,Bonarcado,095,Oristano,OR
 95016,Boroneddu,095,Oristano,OR
 95017,Busachi,095,Oristano,OR
@@ -7225,7 +7225,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 95020,Fordongianus,095,Oristano,OR
 95021,Ghilarza,095,Oristano,OR
 95022,Gonnoscodina,095,Oristano,OR
-95023,Gonnosn√≤,095,Oristano,OR
+95023,GonnosnÚ,095,Oristano,OR
 95024,Gonnostramatza,095,Oristano,OR
 95025,Marrubiu,095,Oristano,OR
 95026,Masullas,095,Oristano,OR
@@ -7248,7 +7248,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 95043,Riola Sardo,095,Oristano,OR
 95044,Ruinas,095,Oristano,OR
 95045,Samugheo,095,Oristano,OR
-95046,San Nicol√≤ d'Arcidano,095,Oristano,OR
+95046,San NicolÚ d'Arcidano,095,Oristano,OR
 95047,Santa Giusta,095,Oristano,OR
 95048,Villa Sant'Antonio,095,Oristano,OR
 95049,Santu Lussurgiu,095,Oristano,OR
@@ -7270,7 +7270,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 95065,Terralba,095,Oristano,OR
 95066,Tramatza,095,Oristano,OR
 95067,Tresnuraghes,095,Oristano,OR
-95068,Ul√† Tirso,095,Oristano,OR
+95068,Ul‡ Tirso,095,Oristano,OR
 95069,Uras,095,Oristano,OR
 95070,Usellus,095,Oristano,OR
 95071,Villanova Truschedu,095,Oristano,OR
@@ -7280,7 +7280,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 95075,Zerfaliu,095,Oristano,OR
 95076,Siapiccia,095,Oristano,OR
 95077,Curcuris,095,Oristano,OR
-95078,Sodd√¨,095,Oristano,OR
+95078,SoddÏ,095,Oristano,OR
 95079,Bosa,095,Oristano,OR
 95080,Flussio,095,Oristano,OR
 95082,Laconi,095,Oristano,OR
@@ -7304,7 +7304,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 96013,Caprile,096,Biella,BI
 96014,Casapinta,096,Biella,BI
 96015,Castelletto Cervo,096,Biella,BI
-96016,Cavagli√†,096,Biella,BI
+96016,Cavagli‡,096,Biella,BI
 96018,Cerrione,096,Biella,BI
 96019,Coggiola,096,Biella,BI
 96020,Cossato,096,Biella,BI
@@ -7369,7 +7369,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 97003,Annone di Brianza,097,Lecco,LC
 97004,Ballabio,097,Lecco,LC
 97005,Barzago,097,Lecco,LC
-97006,Barzan√≤,097,Lecco,LC
+97006,BarzanÚ,097,Lecco,LC
 97007,Barzio,097,Lecco,LC
 97008,Bellano,097,Lecco,LC
 97009,Bosisio Parini,097,Lecco,LC
@@ -7434,7 +7434,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 97070,Primaluna,097,Lecco,LC
 97071,Robbiate,097,Lecco,LC
 97072,Rogeno,097,Lecco,LC
-97074,Santa Maria Ho√®,097,Lecco,LC
+97074,Santa Maria HoË,097,Lecco,LC
 97075,Sirone,097,Lecco,LC
 97076,Sirtori,097,Lecco,LC
 97077,Sueglio,097,Lecco,LC
@@ -7444,7 +7444,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 97083,Valmadrera,097,Lecco,LC
 97084,Varenna,097,Lecco,LC
 97086,Vercurago,097,Lecco,LC
-97090,Vigan√≤,097,Lecco,LC
+97090,ViganÚ,097,Lecco,LC
 97091,Verderio,097,Lecco,LC
 97092,La Valletta Brianza,097,Lecco,LC
 97093,Valvarrone,097,Lecco,LC
@@ -7546,8 +7546,8 @@ CMN,CMNd,PRV,PRVd,PRVs
 101004,Casabona,101,Crotone,KR
 101005,Castelsilano,101,Crotone,KR
 101006,Cerenzia,101,Crotone,KR
-101007,Cir√≤,101,Crotone,KR
-101008,Cir√≤ Marina,101,Crotone,KR
+101007,CirÚ,101,Crotone,KR
+101008,CirÚ Marina,101,Crotone,KR
 101009,Cotronei,101,Crotone,KR
 101010,Crotone,101,Crotone,KR
 101011,Crucoli,101,Crotone,KR
@@ -7573,7 +7573,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 102004,Brognaturo,102,Vibo Valentia,VV
 102005,Capistrano,102,Vibo Valentia,VV
 102006,Cessaniti,102,Vibo Valentia,VV
-102007,Das√†,102,Vibo Valentia,VV
+102007,Das‡,102,Vibo Valentia,VV
 102008,Dinami,102,Vibo Valentia,VV
 102009,Drapia,102,Vibo Valentia,VV
 102010,Fabrizia,102,Vibo Valentia,VV
@@ -7724,7 +7724,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 108031,Mezzago,108,Monza e della Brianza,MB
 108032,Misinto,108,Monza e della Brianza,MB
 108033,Monza,108,Monza e della Brianza,MB
-108034,Muggi√≤,108,Monza e della Brianza,MB
+108034,MuggiÚ,108,Monza e della Brianza,MB
 108035,Nova Milanese,108,Monza e della Brianza,MB
 108036,Ornago,108,Monza e della Brianza,MB
 108037,Renate,108,Monza e della Brianza,MB
@@ -7859,7 +7859,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 111061,San Basilio,111,Sud Sardegna,SU
 111062,San Gavino Monreale,111,Sud Sardegna,SU
 111063,San Giovanni Suergiu,111,Sud Sardegna,SU
-111064,San Nicol√≤ Gerrei,111,Sud Sardegna,SU
+111064,San NicolÚ Gerrei,111,Sud Sardegna,SU
 111065,San Sperate,111,Sud Sardegna,SU
 111066,San Vito,111,Sud Sardegna,SU
 111067,Sanluri,111,Sud Sardegna,SU
@@ -7870,7 +7870,7 @@ CMN,CMNd,PRV,PRVd,PRVs
 111072,Sardara,111,Sud Sardegna,SU
 111073,Segariu,111,Sud Sardegna,SU
 111074,Selegas,111,Sud Sardegna,SU
-111075,Senorb√¨,111,Sud Sardegna,SU
+111075,SenorbÏ,111,Sud Sardegna,SU
 111076,Serdiana,111,Sud Sardegna,SU
 111077,Serramanna,111,Sud Sardegna,SU
 111078,Serrenti,111,Sud Sardegna,SU
