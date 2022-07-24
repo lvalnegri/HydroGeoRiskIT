@@ -3,3 +3,6 @@
 export(dpath)
 export(palette.lst)
 export(risks.lst)
+import(leaflet)
+import(sf)
+importFrom(data.table,data.table)
