@@ -1,4 +1,4 @@
-﻿sigla,sigla_ori,descrizione,etichetta,fonte,anno,rischio,livello,clivello,misura,metrica
+var_id,id_orig,description,label,source,year,risk,level,clevel,measure,metric
 CMN,pro_com,Codice ProCom del Comune,,ISTAT,2021,,,,,
 area,ar_kmq,Superficie (kmq),,,,,,,,
 pop,pop_res011,Popolazione residente (n. ab.),,ISTAT,2020,,,,,
@@ -114,4 +114,3 @@ bct_fr_P2_p,bbccfrp2_p,Beni culturali a rischio in aree a pericolosità da frana
 bct_fr_P1_p,bbccfrp1_p,Beni culturali a rischio in aree a pericolosità da frana moderata P1 (%),,ISPRA,2020,Frana,Basso,P1,Beni Culturali,percentuale
 bct_fr_AA_p,bbccfraa_p,Beni culturali a rischio in aree di attenzione AA (%),,ISPRA,2020,Frana,Attenzione,AA,Beni Culturali,percentuale
 bct_fr_P3P4_p,bbccfrp3p4_p,Beni culturali a rischio in aree a pericolosità da frana elevata e molto elevata (P4 + P3) (%),,ISPRA,2020,Frana,(Molto) Elevato,P3P4,Beni Culturali,percentuale
-,,,,,,,,,,
