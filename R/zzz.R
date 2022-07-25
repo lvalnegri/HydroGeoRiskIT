@@ -15,7 +15,8 @@ dpath <- file.path(Rfuns::datait_path, 'ispra')
 #' @export
 #'
 cmn.lst <- {
-    yc <- fread('./data-raw/csv/geoCMN.csv', keepLeadingZeros = TRUE)[order(CMNd)]
+    load('./data/geoCMN.rda')
+    yc <- geoCMN[order(CMNd)]
     y <- yc$CMN
     names(y) <- paste0(yc$CMNd, ' (', yc$cap, ', ', yc$PRVs, ')')
     y
