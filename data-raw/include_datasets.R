@@ -37,6 +37,12 @@ dd_dbm_do(dbn, 'w', fn, yc)
 assign(fn, yc)
 save( list = fn, file = file.path('data', paste0(fn, '.rda')), version = 3, compress = 'gzip' )
 
+fn <- 'neighbours'
+y <- fread('./data-raw/csv/neighbours.csv')
+dd_dbm_do(dbn, 'w', fn, y) 
+assign(fn, y)
+save( list = fn, file = file.path('data', paste0(fn, '.rda')), version = 3, compress = 'gzip' )
+
 fn <- 'bndCMN'
 y <- st_read('./data-raw/shp/bndCMN.shp') |> 
         dplyr::mutate(CMN = as.integer(CMN)) |> 

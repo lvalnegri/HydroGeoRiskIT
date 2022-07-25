@@ -5,7 +5,7 @@
 \alias{cmn_lid}
 \title{cmn_lid}
 \format{
-Una data.table con i campi seguenti:
+A \code{data.table} object with the following fields:
 \describe{
 \item{\code{risk}}{ Tipologia di Rischio: \code{G}eologico (Frana) o \code{I}drologico (Alluvione) }
 \item{\code{lid}}{ Identificativo unico formato come concatenazione fra \code{livello} e \code{id} }

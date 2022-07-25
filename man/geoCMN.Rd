@@ -5,7 +5,6 @@
 \alias{geoCMN}
 \title{geoCMN}
 \format{
-An \code{data.table} object with the following fields:
 \describe{
 \item{\code{CMN}}{ ISTAT code for the Municipality }
 \item{\code{CMNd}}{ Name of the Municipality }
@@ -16,6 +15,9 @@ An \code{data.table} object with the following fields:
 }
 \usage{
 geoCMN
+}
+\value{
+A \code{data.table} object with the following fields:
 }
 \description{
 Dataset containing the complete list of Municipalities (as of 2022), and corresponding Province

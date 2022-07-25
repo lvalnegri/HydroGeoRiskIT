@@ -6,13 +6,20 @@
 #' 
 dpath <- file.path(Rfuns::datait_path, 'ispra')
 
-#' #' cmn.lst
-#' #' 
-#' #' Complete List of Italian Municipalities (`CMN`), with Zip Codes and Provinces Roads Codes.
-#' #'
-#' #' @export
-#' #' 
-#' cmn.lst <- create_cmn_lst()
+#' cmn.lst
+#'
+#' Complete List of Italian Municipalities (`CMN`), with Zip Codes and Provinces Roads Codes.
+#'
+#' @import data.table
+#'
+#' @export
+#'
+cmn.lst <- {
+    yc <- fread('./data-raw/csv/geoCMN.csv', keepLeadingZeros = TRUE)[order(CMNd)]
+    y <- yc$CMN
+    names(y) <- paste0(yc$CMNd, ' (', yc$cap, ', ', yc$PRVs, ')')
+    y
+}
 
 #' palette.lst
 #' 
@@ -22,7 +29,7 @@ dpath <- file.path(Rfuns::datait_path, 'ispra')
 #' 
 palette.lst <- list(
     'geo'  = list('P4' = '#6E0000', 'P3' = '#DC0000', 'P2' = '#DE6700', 'P1' = '#F1CA2E', 'AA' = '#FEFF68'),
-    'idro' = list('H' = '#0C2775', 'M' = '#2D72FF', 'L' = '#C3E8FF')
+    'hydro' = list('H' = '#0C2775', 'M' = '#2D72FF', 'L' = '#C3E8FF')
 )
 
 #' risks.lst
@@ -33,7 +40,7 @@ palette.lst <- list(
 #' 
 risks.lst <- list(
     'geo'  = list('P4' = 'Very High', 'P3' = 'High', 'P2' = 'Medium', 'P1' = 'Moderate', 'AA' = 'Attention'),
-    'idro' = list('H' = 'High', 'M' = 'Medium', 'L' = 'Low')
+    'hydro' = list('H' = 'High', 'M' = 'Medium', 'L' = 'Low')
 )
 
 

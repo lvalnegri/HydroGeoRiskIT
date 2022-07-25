@@ -7,7 +7,7 @@ library(Rfuns)
 dbn <- 'ispra'
 dd_create_db(dbn)
 
-## TABLE <dataset> ----------------
+## TABLE <dataset> --------------------
 x <- "
     `CMN` MEDIUMINT UNSIGNED NOT NULL,
     `var_id` CHAR(14) NOT NULL,
@@ -16,7 +16,7 @@ x <- "
 "
 dd_create_dbtable('dataset', dbn, x)
 
-## TABLE <metadata> ----------------
+## TABLE <metadata> -------------------
 x <- "
     `var_id` CHAR(14) NOT NULL,
     `id_orig` CHAR(12) NOT NULL,
@@ -37,7 +37,7 @@ x <- "
 "
 dd_create_dbtable('metadata', dbn, x)
 
-## TABLE <cmn_lid> ----------------
+## TABLE <cmn_lid> --------------------
 x <- "
     `risk` CHAR(1) NOT NULL,
     `lid` CHAR(6) NOT NULL,
@@ -50,18 +50,27 @@ x <- "
 "
 dd_create_dbtable('cmn_lid', dbn, x)
 
-## TABLE <geoCMN> ----------------
+## TABLE <geoCMN> ---------------------
 x <- "
     `CMN` MEDIUMINT(6) UNSIGNED NOT NULL,
     `CMNd` CHAR(35) NOT NULL,
     `PRV` CHAR(3) NOT NULL,
     `PRVd` CHAR(30) NOT NULL,
     `PRVs` CHAR(2) NOT NULL,
+    `cap` CHAR(5) NOT NULL,
     PRIMARY KEY (`CMN`),
     KEY `PRV` (`PRV`),
     KEY `PRVs` (`PRVs`)
 "
 dd_create_dbtable('geoCMN', dbn, x)
+
+## TABLE <neighbours> -----------------
+x <- "
+    `CMN` MEDIUMINT(6) UNSIGNED NOT NULL,
+    `neigh` MEDIUMINT(6) UNSIGNED NOT NULL,
+    PRIMARY KEY (`CMN`, `neigh`)
+"
+dd_create_dbtable('neighbours', dbn, x)
 
 ## FINE -------------------------------
 rm(list = ls())

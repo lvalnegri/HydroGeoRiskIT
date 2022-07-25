@@ -78,8 +78,8 @@ NULL
 #'
 #' @format An `sf` object with the following fields:
 #' \describe{
-#'   \item{\code{CMN}}{ ISTAT code for the Municipality }
-#'   \item{\code{CMNd}}{ Name of the Municipality }
+#'   \item{\code{CMN}}{ ISTAT code for the District }
+#'   \item{\code{CMNd}}{ Name of the District }
 #' }
 #'
 'bndCMN'
@@ -96,6 +96,18 @@ NULL
 #' }
 #'
 'bndPRV'
+
+#' neighbours
+#'
+#' For each Italian District, the list of all its bordering Districts
+#'
+#' @format A `data.table` object with the following fields:
+#' \describe{
+#'   \item{\code{CMN}}{ ISTAT code for the District }
+#'   \item{\code{neigh}}{ ISTAT code for the bordering Districts }
+#' }
+#'
+'neighbours'
 
 #' mps
 #'

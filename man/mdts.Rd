@@ -5,7 +5,7 @@
 \alias{mdts}
 \title{metadata}
 \format{
-Una data.table con i campi seguenti:
+A \code{data.table} object with the following fields:
 \describe{
 \item{\code{var_id}}{ Identificativo della Variabile }
 \item{\code{id_orig}}{ Identificativo della Variabile nel file ISPRA }

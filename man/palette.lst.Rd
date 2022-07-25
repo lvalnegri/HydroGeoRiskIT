@@ -3,14 +3,7 @@
 \docType{data}
 \name{palette.lst}
 \alias{palette.lst}
-\title{#' cmn.lst
-#'
-#' Complete List of Italian Municipalities (\code{CMN}), with Zip Codes and Provinces Roads Codes.
-#'
-#' @export
-#'
-cmn.lst <- create_cmn_lst()
-palette.lst}
+\title{palette.lst}
 \format{
 An object of class \code{list} of length 2.
 }

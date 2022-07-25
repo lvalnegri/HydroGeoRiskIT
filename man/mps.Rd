@@ -10,7 +10,10 @@ An object of class \code{leaflet} (inherits from \code{htmlwidget}) of length 8.
 \usage{
 mps
 }
+\value{
+A \code{Leaflet} object to be used as initial map for Shiny Web Apps
+}
 \description{
-\code{Leaflet} object to be used as initial map for shiny apps
+mps
 }
 \keyword{datasets}

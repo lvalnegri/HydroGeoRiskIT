@@ -5,7 +5,7 @@
 \alias{dts}
 \title{dataset}
 \format{
-Una data.table con i campi seguenti:
+A \code{data.table} object with the following fields:
 \describe{
 \item{\code{CMN}}{ Codice ISTAT del Comune }
 \item{\code{var_id}}{ Identificativo della Variabile (chiave esterna per la tabella metadati \code{mdts}) }
