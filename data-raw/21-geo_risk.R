@@ -15,12 +15,14 @@ build_table <- \(x, r){
         align = 'lr'
     )
 }
-empty_pol <- st_sf(geometry = st_sfc(st_polygon()), crs = 3035)
+empty_poly <- st_sf(geometry = st_sfc(st_polygon()), crs = 4326)
+extract_poly <- \(py, x) if(nrow(py |> subset(livello == x)) > 0) py |> subset(livello == x) else empty_poly
 ybp <- bndPRV |> select(PRV) |> st_transform(3035)
 ybc <- bndCMN |> select(CMN) |> st_transform(3035)
 
 # Read and clean shapefiles, adding <id> --------
-y <- st_read(file.path(in_path, 'geo_ori.shp'), quiet = TRUE) |> 
+message('Reading and cleaning shapefile...')
+yb <- st_read(file.path(in_path, 'geo_ori.shp'), quiet = TRUE) |> 
         st_transform(3035) |> 
         mutate(livello = gsub('.* (.*$)', '\\1', per_fr_ita)) |>
         select(livello) |>
@@ -30,52 +32,53 @@ y <- st_read(file.path(in_path, 'geo_ori.shp'), quiet = TRUE) |>
         ungroup() |> 
         mutate(lid = paste0(id, livello)) |> 
         select(lid, id, livello)
-st_write(y, file.path(in_path, 'geo.shp'))
-qsave(y, file.path(out_path, 'geo.qs'))
+st_write(yb, file.path(in_path, 'geo.shp'))
+qsave(yb, file.path(out_path, 'geo.qs'), nthreads = 10)
 
 # Build <lookups> table lid <-> CMN -------------
-yc <- bndCMN |> st_transform(3035)
-ye <- st_intersects(y, yc)
-yt <- y |> st_drop_geometry()
-yc <- yc |> st_drop_geometry()
+message('\nBuilding lookups between polygons and Districts...')
+ye <- st_intersects(y, ybc)
+yt <- yb |> st_drop_geometry()
+yc <- ybc |> st_drop_geometry()
 ye <- rbindlist(lapply( 1:nrow(ye), \(x) data.table( yt[x,], yc[ye[[x]],] ) )) |> setnames('V2', 'CMN')
 ye[, lid := paste0(id, livello)]
 fwrite(ye, './data-raw/csv/geo_cmn.csv')
-fst::write_fst(ye, file.path(apath, 'geo.fst'))
+fst::write_fst(ye, file.path(out_path, 'geo.fst'))
 
 # Cut Off by Province ---------------------------
-ybp <- masteRconfini::PRV |> st_transform(3035)
-yc <- masteRgeo::comuni[, .(CMN = as.integer(CMN), PRV)][order(PRV, CMN)]
-y <- list()
+message('\nCutting off Provinces:')
 for(p in ybp$PRV){
-    message('Provincia ', p)
-    ycp <- yc[PRV == p, CMN]
-    y[[p]] <- st_intersection( yb |> subset(lid %in% ye[CMN %in% ycp, lid]), ybp |> subset(PRV == p) ) |> select(-PRV)
-    qsave(y[[p]], file.path(out_path, p), nthreads = 10)
+    message('Province ', p)
+    ycp <- geoCMN[PRV == p, CMN]
+    y <- st_intersection( yb |> subset(lid %in% ye[CMN %in% ycp, lid]), ybp |> subset(PRV == p) ) |> select(-PRV)
+    qsave(y, file.path(out_path, p), nthreads = 10)
 }
 
 # Cut Off by District ---------------------------
+message('\nCutting off Districts:')
 for(p in ybp$PRV){
-    message('Provincia ', p)
-    for(pc in yc[PRV == p, CMN]){
-        yt <- st_intersection(ybc |> subset(CMN == pc), y[[p]] ) |> select(livello) |> st_transform(4326)
+    message('\nProvince ', p)
+    y <- qread(file.path(out_path, p), nthreads = 10)
+    for(pc in geoCMN[PRV == p, CMN]){
+        message(' - District ', pc)
+        yt <- st_intersection(ybc |> subset(CMN == pc), y) |> select(livello) |> st_transform(4326)
         if(nrow(yt) > 0){
-            y <- list(
-                'bbx' = st_bbox(yt |> st_transform(4326)),
-                'P1' = yt |> subset(livello == 'P1'),
-                'P2' = yt |> subset(livello == 'P2'),
-                'P3' = yt |> subset(livello == 'P3'),
-                'P4' = yt |> subset(livello == 'P4'),
-                'AA' = yt |> subset(livello == 'AA'),
-                'CMN' = masteRconfini::CMN |> subset(CMN == pc)
+            yt <- list(
+                'bbx' = st_bbox(yt),
+                'P1' = extract_poly(yt, 'P1'),
+                'P2' = extract_poly(yt, 'P2'),
+                'P3' = extract_poly(yt, 'P3'),
+                'P4' = extract_poly(yt, 'P4'),
+                'AA' = extract_poly(yt, 'AA'),
+                'CMN' = bndCMN |> subset(CMN == pc),
+                'dts' = build_table(pc)
             )
         } else { 
-            y <- list( 'bbx' = NULL, 'CMN' = masteRconfini::CMN |> subset(CMN == pc) )
+            yt <- list( 'bbx' = NULL, 'CMN' = bndCMN |> subset(CMN == pc) )
         }
-        qsave(y, file.path(out_path, pc), nthreads = 10)
+        qsave(yt, file.path(out_path, pc), nthreads = 10)
     }
 }
-
 
 # Done! -----------------------------------------
 rm(list = ls())
