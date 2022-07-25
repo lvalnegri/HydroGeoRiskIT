@@ -15,7 +15,7 @@ build_table <- \(x, r){
         align = 'lr'
     )
 }
-empty_pol <- st_sf(geometry = st_sfc(st_polygon()), crs = 3035)
+empty_poly <- st_sf(geometry = st_sfc(st_polygon()), crs = 3035)
 ybp <- bndPRV |> select(PRV) |> st_transform(3035)
 ybc <- bndCMN |> select(CMN) |> st_transform(3035)
 
@@ -62,28 +62,28 @@ for(p in sort(ybp$PRV)){
                 yt <- st_intersection(ybc |> subset(CMN == pc), y) |> select(level)
                 if(nrow(yt) > 0){
                     yth <- yt |> subset(level == 'H')
-                    yth <- if(nrow(yth) == 0) { empty_pol } else { yth |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
+                    yth <- if(nrow(yth) == 0) { empty_poly } else { yth |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
                     if(nrow(yth) == 0){
-                        yth <- empty_pol
+                        yth <- empty_poly
                     } else {
                         if(st_is(yth, 'GEOMETRYCOLLECTION')) yth <- st_collection_extract(yth, 'POLYGON')
                     }
                     ytm <- yt |> subset(level == 'M')
-                    ytm <- if(nrow(ytm) == 0) { empty_pol } else { ytm |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
+                    ytm <- if(nrow(ytm) == 0) { empty_poly } else { ytm |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
                     ytl <- yt |> subset(level == 'L')
                     if(nrow(ytl) == 0){ 
-                        empty_pol 
+                        empty_poly 
                     } else { 
                         ytl <- ytl |> ms_dissolve(copy_fields = 'level')  |> st_make_valid() |> st_difference(ytm) |> select(level) 
                         if(nrow(ytl) == 0){
-                            ytl <- empty_pol
+                            ytl <- empty_poly
                         } else {
                             if(st_is(ytl, 'GEOMETRYCOLLECTION')) ytl <- st_collection_extract(ytl, 'POLYGON')
                         }
                     }
                     ytm <- ytm |> st_difference(yth)
                     if(nrow(ytm) == 0){
-                        ytm <- empty_pol
+                        ytm <- empty_poly
                     } else {
                         if(st_is(ytm, 'GEOMETRYCOLLECTION')) ytm <- st_collection_extract(ytm, 'POLYGON')
                         ytm <- ytm |> select(level)
@@ -116,11 +116,11 @@ for(pc in y.err){
     message(' - District ', pc)
     yt <- st_intersection(ybc |> subset(CMN == pc), y) |> select(level) |> st_buffer(0.1)
     yth <- yt |> subset(level == 'H')
-    yth <- if(nrow(yth) == 0) { empty_pol } else { yth |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
+    yth <- if(nrow(yth) == 0) { empty_poly } else { yth |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
     ytm <- yt |> subset(level == 'M')
-    ytm <- if(nrow(ytm) == 0) { empty_pol } else { ytm |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
+    ytm <- if(nrow(ytm) == 0) { empty_poly } else { ytm |> ms_dissolve(copy_fields = 'level') |> st_make_valid() }
     ytl <- yt |> subset(level == 'L')
-    if(nrow(ytl) == 0) { empty_pol } else { ytl <- ytl |> ms_dissolve(copy_fields = 'level')  |> st_make_valid() |> st_difference(ytm) }
+    if(nrow(ytl) == 0) { empty_poly } else { ytl <- ytl |> ms_dissolve(copy_fields = 'level')  |> st_make_valid() |> st_difference(ytm) }
     ytm <- ytm |> st_difference(yth)
     yt <- list(
             'bbx' = st_bbox(yt |> st_transform(4326)),
