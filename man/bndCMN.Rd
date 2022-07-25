@@ -7,8 +7,8 @@
 \format{
 An \code{sf} object with the following fields:
 \describe{
-\item{\code{CMN}}{ ISTAT code for the Municipality }
-\item{\code{CMNd}}{ Name of the Municipality }
+\item{\code{CMN}}{ ISTAT code for the District }
+\item{\code{CMNd}}{ Name of the District }
 }
 }
 \usage{
