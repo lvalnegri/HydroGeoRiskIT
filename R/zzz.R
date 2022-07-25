@@ -44,6 +44,29 @@ risks.lst <- list(
     'hydro' = list('H' = 'High', 'M' = 'Medium', 'L' = 'Low')
 )
 
+#' empty_poly
+#' 
+#' An empty polygon with CRS 3035 (`x = TRUE`, default) or 4326 (`x = FALSE`)
+#'
+#' @param x if `TRUE` the CRS of the polygon is the projected 3035 (ETRS89), otherwise the geodetic 4326 (WGS84) 
+#'
+#' @importFrom sf st_sf st_sfc st_polygon
+#'
+#' @export
+#' 
+empty_poly <- \(x = TRUE) st_sf(geometry = st_sfc(st_polygon()), crs = if(x) 3035 else 4326)
+
+#' extract_poly
+#' 
+#' Extract polygons from a geometry collection, or leave it as it is if not.
+#'
+#' @param x an `sf` object
+#'
+#' @importFrom sf st_is st_collection_extract
+#'
+#' @export
+#' 
+extract_poly <- \(x) if(st_is(x, 'GEOMETRYCOLLECTION')) x <- st_collection_extract(x, 'POLYGON') else x
 
 # .onAttach <- function(libname, pkgname) {
 #     packageStartupMessage(
