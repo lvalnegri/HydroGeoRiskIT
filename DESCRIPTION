@@ -12,7 +12,10 @@ Encoding: UTF-8
 Depends: R (>= 4.1)
 Imports:
     data.table,
+    htmlTable,
+    htmltools,
     leaflet,
+    Rfuns,
     rmapshaper,
     qs,
     sf
