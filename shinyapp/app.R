@@ -1,12 +1,12 @@
-Rfuns::load_pkgs('RshinyUtils', 'it_hydrogeo_risk', 'data.table', 'DT', 'htmltools', 'htmlTable', 'leaflet', 'qs', 'shiny', 'shinyjs', 'sf')
+Rfuns::load_pkgs('RShinyUtils', 'HydroGeoRiskIT', 'data.table', 'DT', 'htmltools', 'leaflet', 'qs', 'sf', 'shiny', 'shinyjs')
 
 ui <- fluidPage(
 
     useShinyjs(),
     faPlugin,
     tags$head(
-        tags$title('Rischio Idrogeologico'),
-        tags$style("@import url('https://geo-master.eu/assets/icone/font-awesome/all.css;')"),
+        tags$title('HydroGeological Risk in Italy'),
+        tags$style("@import url('https://datamaps.uk/assets/datamaps/icons/fontawesome/all.css;')"),
         tags$style(HTML("
             #out_map { height: calc(100vh - 80px) !important; }
             .well { 
@@ -38,7 +38,7 @@ ui <- fluidPage(
     ),
     # includeCSS('./styles.css'),
     
-    titlePanel('Rischio Idrogeologico'),
+    titlePanel('HydroGeological Risk'),
 
     fluidRow(
         column(3,
@@ -53,7 +53,7 @@ ui <- fluidPage(
                 checkboxInput('chk_vcn', 'INCLUDE NEIGHBOURS', FALSE),
                 br(),
                 selectInput('cbo_tls', 'MAPTILES:', tiles.lst, tiles.lst[[19]]),
-                sliderInput('sld_tsp', 'POLYGON OPACITY:', 1, 10, 28, 1)
+                sliderInput('sld_tsp', 'POLYGON OPACITY:', 1, 10, 8, 1)
             )
         ),
         column(9, leafletOutput('out_map', width = '100%') )
@@ -64,12 +64,12 @@ ui <- fluidPage(
 server <- function(input, output) {
 
     # INIZIALIZZAZIONE MAPPA
-    output$out_map <- renderLeaflet({ mps })
+    output$out_map <- renderLeaflet({ leaflet() })
 
     # ESTRAZIONE POLIGONI
     dts <- reactive({
         req(input$cbo_cmn)
-        qread(file.path(data_path, 'ispra', input$rdb_rsk, paste0(input$cbo_cmn, ifelse(input$chk_vcn, 'v', ''))), nthreads = 6)
+        qread(file.path(dpath, input$rdb_rsk, paste0(input$cbo_cmn, ifelse(input$chk_vcn, 'v', ''))), nthreads = 4)
     })
     
     # AGGIORNAMENTO MAPPA E TABELLA LATERALE
@@ -91,12 +91,12 @@ server <- function(input, output) {
                 
                 # POLIGONI AREE RISCHIO
                 grps <- NULL
-                yr <- livelli.lst[[input$rdb_rsk]]
+                yr <- risks.lst[[input$rdb_rsk]]
                 for(yrn in names(yr)){
-                    vai <- ifelse(input$chk_vcn, !is.null(dts()[[yrn]]), length(dts()[[yrn]]) > 0)
+                    vai <- ifelse(input$chk_vcn, !is.null(dts()[[yrn]]), !st_is_empty(dts()[[yrn]]))
                     if(vai){
-                        yrc <- colori.lst[[input$rdb_rsk]][[yrn]]
-                        grp <- livelli.lst[[input$rdb_rsk]][[yrn]]
+                        yrc <- palette.lst[[input$rdb_rsk]][[yrn]]
+                        grp <- risks.lst[[input$rdb_rsk]][[yrn]]
                         grps <- c(grps, grp)
                         y <- y |> 
                                 addPolygons(
@@ -104,7 +104,7 @@ server <- function(input, output) {
                                     group = grp, 
                                     stroke = FALSE, 
                                     fillColor = yrc, 
-                                    fillOpacity = 1 - as.numeric(input$sld_tsp) / 10
+                                    fillOpacity = as.numeric(input$sld_tsp) / 10
                                 )
                     } 
                 }
@@ -118,7 +118,7 @@ server <- function(input, output) {
                         color = 'black',
                         opacity = 1,
                         fillOpacity = 0,
-                        label = lapply(dts()$CMNv$CMN, crea_tabella_popup),
+                        label = dts()$dtsv,
                         highlightOptions = hlt.options
                     )
                 y <- y |> 
@@ -128,7 +128,7 @@ server <- function(input, output) {
                             color = 'red',
                             opacity = 1,
                             fillOpacity = 0,
-                            label = ~CMN,
+                            label = dts()$dts,
                             highlightOptions = hlt.options
                         )
                 
@@ -138,7 +138,7 @@ server <- function(input, output) {
                 # RILASCIO MAPPA FINALE
                 y |> 
                     addLayersControl(overlayGroups = grps, options = layersControlOptions(collapsed = FALSE)) |> 
-                    fine_mappa_spin()
+                    end_spinmap_it()
                 
             } else {
 
@@ -148,7 +148,7 @@ server <- function(input, output) {
     )
     
     # AGGIORNAMENTO TESSERE MAPPA
-    observe({ leafletProxy('out_map') |> clearTiles() |> aggiungi_tessera(input$cbo_tls) })
+    observe({ leafletProxy('out_map') |> clearTiles() |> add_maptile(input$cbo_tls) })
     
     # TABELLA DETTAGLIO
     observeEvent(input$btn_tbl, {
