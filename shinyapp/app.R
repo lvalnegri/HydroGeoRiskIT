@@ -93,8 +93,7 @@ server <- function(input, output) {
                 grps <- NULL
                 yr <- risks.lst[[input$rdb_rsk]]
                 for(yrn in names(yr)){
-                    vai <- ifelse(input$chk_vcn, !is.null(dts()[[yrn]]), !st_is_empty(dts()[[yrn]]))
-                    if(vai){
+                    if(!is.null(dts()[[yrn]])){
                         yrc <- palette.lst[[input$rdb_rsk]][[yrn]]
                         grp <- risks.lst[[input$rdb_rsk]][[yrn]]
                         grps <- c(grps, grp)
